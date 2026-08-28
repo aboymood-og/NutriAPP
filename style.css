@@ -1,0 +1,622 @@
+:root {
+    /* Colors */
+    --primary-color: #0f172a;
+    --primary-light: #1e293b;
+    --secondary-color: #3b82f6;
+    --secondary-hover: #2563eb;
+    --success-color: #10b981;
+    --danger-color: #ef4444;
+    --background: #f8fafc;
+    --surface: #ffffff;
+    --border-color: #e2e8f0;
+    
+    /* Text Colors */
+    --text-main: #0f172a;
+    --text-muted: #64748b;
+    --text-light: #f8fafc;
+    
+    /* Effects */
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --radius-md: 0.5rem;
+    --radius-lg: 0.75rem;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text-main);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* --- HEADER & NAVIGATION --- */
+.main-header {
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    height: 64px;
+}
+
+.logo h1 {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.logo span {
+    color: var(--secondary-color);
+}
+
+.main-nav {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.nav-btn {
+    background: transparent;
+    border: none;
+    color: var(--text-muted);
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.2s;
+}
+
+.nav-btn:hover {
+    color: var(--text-light);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.nav-btn.active {
+    color: var(--text-light);
+    background-color: var(--primary-light);
+}
+
+/* --- CONTEXTO PACIENTE (Sticky) --- */
+.active-patient-bar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: var(--surface);
+    border-bottom: 1px solid var(--border-color);
+    padding: 0.75rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: var(--shadow-sm);
+}
+
+.patient-context-info {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 0.95rem;
+}
+
+.context-label {
+    color: var(--text-muted);
+}
+
+.context-value {
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.context-divider {
+    color: var(--border-color);
+}
+
+/* --- LAYOUT GENERAL --- */
+main {
+    padding: 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.card {
+    background: var(--surface);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-sm);
+    padding: 1.5rem;
+}
+
+/* --- COMPONENTES GLOBALES --- */
+h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+}
+
+/* Buttons */
+button {
+    font-family: inherit;
+}
+
+.btn-primary {
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: var(--radius-md);
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: var(--secondary-hover);
+}
+
+.btn-secondary {
+    background-color: var(--background);
+    color: var(--primary-color);
+    border: 1px solid var(--border-color);
+    padding: 0.4rem 0.8rem;
+    border-radius: var(--radius-md);
+    font-size: 0.85rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.btn-secondary:hover {
+    background-color: var(--border-color);
+}
+
+.btn-text {
+    background: transparent;
+    border: none;
+    color: var(--text-muted);
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.btn-text:hover {
+    color: var(--primary-color);
+}
+
+.text-danger { color: var(--danger-color) !important; }
+.text-danger:hover { background-color: #fef2f2 !important; }
+
+/* Forms */
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    margin-bottom: 0.25rem;
+}
+
+input[type="text"], input[type="number"], select {
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    background-color: var(--background);
+    color: var(--text-main);
+    font-size: 0.95rem;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+input:focus, select:focus {
+    border-color: var(--secondary-color);
+    background-color: var(--surface);
+}
+
+.search-box {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.search-box svg {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-muted);
+}
+
+.search-box input {
+    padding-left: 2.5rem;
+    background-color: var(--surface);
+}
+
+/* Lists */
+.custom-list {
+    list-style: none;
+}
+
+.custom-list li {
+    padding: 1rem;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.2s;
+}
+
+.custom-list li:last-child {
+    border-bottom: none;
+}
+
+/* --- VISTA PACIENTES --- */
+.dashboard-header {
+    margin-bottom: 2rem;
+}
+
+.dashboard-header p {
+    color: var(--text-muted);
+}
+
+.patients-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 1rem;
+}
+
+.form-grid .full-width {
+    grid-column: 1 / -1;
+}
+
+.bmi-result-box {
+    background-color: var(--background);
+    padding: 1rem;
+    border-radius: var(--radius-md);
+    border: 1px dashed var(--border-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.bmi-label {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+.bmi-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+/* --- VISTA BASE DE DATOS (Split Pane) --- */
+.split-pane {
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    gap: 1.5rem;
+    height: calc(100vh - 200px); /* Fill remaining space approx */
+}
+
+.pane-left {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#search-results {
+    flex-grow: 1;
+    overflow-y: auto;
+    margin: -1.5rem;
+    margin-top: 0;
+    padding: 1.5rem;
+    padding-top: 0;
+}
+
+#search-results li {
+    cursor: pointer;
+    border: 1px solid var(--border-color);
+    margin-bottom: 0.5rem;
+    border-radius: var(--radius-md);
+    background: var(--surface);
+}
+
+#search-results li:hover, #search-results li.active {
+    border-color: var(--secondary-color);
+    background-color: #f0f7ff;
+}
+
+.pane-right {
+    overflow-y: auto;
+    position: relative;
+}
+
+.empty-state, .empty-state-large {
+    text-align: center;
+    color: var(--text-muted);
+    font-style: italic;
+    padding: 2rem 0;
+}
+
+.empty-state-large {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.empty-state-large p {
+    margin-top: 1rem;
+    max-width: 300px;
+}
+
+.food-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.box-highlight {
+    background-color: var(--background);
+    border-radius: var(--radius-md);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.calc-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.add-to-plan-action {
+    display: flex;
+    align-items: flex-end;
+    gap: 1rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px dashed var(--border-color);
+}
+
+.add-to-plan-action .form-group { flex-grow: 1; }
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.small-select {
+    width: auto;
+    padding: 0.4rem;
+    font-size: 0.85rem;
+}
+
+.nutrients-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1rem;
+}
+
+.nutrient-card {
+    background: var(--surface);
+    padding: 1rem;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-sm);
+    display: flex;
+    flex-direction: column;
+}
+
+.nutrient-card small {
+    color: var(--text-muted);
+    font-size: 0.8rem;
+    margin-bottom: 0.25rem;
+}
+
+.nutrient-card span {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--primary-color);
+}
+
+/* --- VISTA PAUTA / R24 --- */
+.plan-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.plan-layout {
+    display: grid;
+    grid-template-columns: 1fr 350px;
+    gap: 2rem;
+    align-items: start;
+}
+
+.meals-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.meal-card {
+    background: var(--surface);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+}
+
+.meal-header {
+    background-color: var(--background);
+    padding: 1rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.meal-header h4 {
+    margin: 0;
+    color: var(--primary-color);
+}
+
+.meal-items {
+    list-style: none;
+    min-height: 100px;
+}
+
+.meal-items li {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+}
+.meal-items li:last-child { border-bottom: none; }
+
+.item-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-name { font-weight: 500; }
+.item-meta { color: var(--text-muted); font-size: 0.8rem; }
+
+.btn-delete {
+    background: #fee2e2;
+    color: var(--danger-color);
+    border: none;
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-delete:hover { background: #fca5a5; color: white; }
+
+.summary-panel {
+    position: sticky;
+    top: 90px;
+}
+
+.chart-container {
+    height: 200px;
+    position: relative;
+}
+
+.nutrients-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.nutrient-list-item {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px dashed var(--border-color);
+}
+.nutrient-list-item:last-child { border-bottom: none; }
+
+/* --- MODAL --- */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(15, 23, 42, 0.5);
+    backdrop-filter: blur(2px);
+}
+
+.modal-content {
+    position: relative;
+    width: 90%;
+    max-width: 500px;
+    z-index: 1001;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.btn-icon {
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    color: var(--text-muted);
+    cursor: pointer;
+}
+
+.scan-placeholder {
+    background-color: var(--background);
+    border: 2px dashed var(--border-color);
+    border-radius: var(--radius-md);
+    padding: 3rem 2rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+/* RESPONSIVE */
+@media (max-width: 992px) {
+    .split-pane { grid-template-columns: 1fr; height: auto; }
+    .pane-left { max-height: 400px; }
+    .plan-layout { grid-template-columns: 1fr; }
+    .summary-panel { position: static; margin-top: 2rem; }
+}
+
+@media (max-width: 768px) {
+    .patients-layout, .meals-grid, .form-grid { grid-template-columns: 1fr; }
+}
