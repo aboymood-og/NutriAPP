@@ -124,7 +124,7 @@ body {
 /* --- LAYOUT GENERAL --- */
 main {
     padding: 2rem;
-    max-width: 1400px;
+    max-width: 98%;
     margin: 0 auto;
 }
 
@@ -619,4 +619,170 @@ input:focus, select:focus {
 
 @media (max-width: 768px) {
     .patients-layout, .meals-grid, .form-grid { grid-template-columns: 1fr; }
+}
+
+/* --- MEAL INLINE SUMMARY --- */
+.meal-summary-inline {
+    background-color: #f8fafc;
+    padding: 0.75rem 1rem;
+    border-radius: var(--radius-md);
+    margin: 0.5rem 1rem 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid var(--border-color);
+}
+.ms-total {
+    font-size: 0.95rem;
+    color: var(--primary-color);
+}
+.ms-total strong {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.ms-macros {
+    display: flex;
+    gap: 0.5rem;
+}
+.macro-badge {
+    font-size: 0.75rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 99px;
+    font-weight: 600;
+}
+.macro-badge.protein { background: #dbeafe; color: #1e40af; }
+.macro-badge.carbs { background: #dcfce7; color: #166534; }
+.macro-badge.fat { background: #fef3c7; color: #92400e; }
+
+img.zoomed { transform: scale(2); cursor: zoom-out !important; transform-origin: top center; }
+
+/* --- MODO EXPORTACIÓN PDF --- */
+.pdf-export-mode {
+    display: block !important;
+    background: white !important;
+    padding: 20px !important;
+    font-size: 0.9rem !important;
+    color: #000 !important;
+}
+
+/* Formal Header */
+.pdf-export-mode #pdf-patient-header {
+    border-bottom: 2px solid #000 !important;
+    padding-bottom: 0.5rem !important;
+    margin-bottom: 1rem !important;
+}
+.pdf-export-mode #pdf-patient-header h1 {
+    color: #000 !important;
+    font-size: 1.5rem;
+}
+.pdf-export-mode #pdf-patient-header .header-meta {
+    background: transparent !important;
+    padding: 0 !important;
+    border: none !important;
+}
+
+/* 2x2 Grid for Meals */
+.pdf-export-mode .meals-grid {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 1rem !important;
+}
+
+.pdf-export-mode .meal-card {
+    margin-bottom: 0 !important;
+    border: 1px solid #000 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+}
+
+.pdf-export-mode .meal-header {
+    background: #f0f0f0 !important;
+    border-bottom: 1px solid #000 !important;
+    padding: 0.5rem !important;
+}
+.pdf-export-mode .meal-header h4 {
+    color: #000 !important;
+}
+
+.pdf-export-mode .meal-items li {
+    padding: 0.4rem 0.5rem !important;
+    border-bottom: 1px dashed #ccc !important;
+}
+
+.pdf-export-mode .meal-summary-inline {
+    background-color: transparent !important;
+    border: none !important;
+    border-top: 1px solid #000 !important;
+    margin: 0 !important;
+    padding: 0.5rem !important;
+    border-radius: 0 !important;
+    color: #000 !important;
+}
+.pdf-export-mode .meal-summary-inline strong {
+    color: #000 !important;
+}
+
+/* Compact Summary Panel */
+.pdf-export-mode .summary-panel {
+    display: grid !important;
+    grid-template-columns: 250px 1fr !important;
+    grid-template-rows: auto auto !important;
+    align-items: center !important;
+    margin-top: 1.5rem !important;
+    padding: 1rem !important;
+    border: 1px solid #000 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    position: static !important;
+}
+.pdf-export-mode .summary-panel h3 {
+    grid-row: 1 !important;
+    grid-column: 1 / -1 !important;
+    display: block !important;
+    color: #000 !important;
+    border-bottom: 1px solid #000 !important;
+    padding-bottom: 0.5rem !important;
+    margin-bottom: 1rem !important;
+    font-size: 1.2rem !important;
+}
+.pdf-export-mode .summary-panel h4 {
+    display: block !important;
+    grid-column: 2 !important;
+    grid-row: 2 !important;
+    color: #000 !important;
+    margin: 0 0 0.5rem 3rem !important;
+    font-size: 1rem !important;
+    font-weight: 700 !important;
+    align-self: end !important;
+}
+
+.pdf-export-mode .chart-container {
+    grid-row: 2 / span 2 !important;
+    grid-column: 1 !important;
+    height: 180px !important;
+    width: 250px !important;
+    margin: 0 auto !important;
+}
+
+.pdf-export-mode .nutrients-list {
+    grid-row: 3 !important;
+    grid-column: 2 !important;
+    margin-left: 3rem !important;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 0.75rem 2rem !important;
+}
+.pdf-export-mode .nutrient-list-item {
+    border-bottom: 1px dashed #ccc !important;
+    padding-bottom: 0.2rem !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    color: #000 !important;
+}
+.pdf-export-mode .nutrient-list-item span {
+    color: #333 !important;
+}
+.pdf-export-mode .nutrient-list-item strong {
+    color: #000 !important;
+    font-weight: 700 !important;
 }

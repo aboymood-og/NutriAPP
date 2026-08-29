@@ -1,6 +1,6 @@
 const app = {
     alimentosData: [],
-    currentFood: null,
+    selectedFoods: [],
     patients: [],
     currentPatientId: null,
     plan: {
@@ -63,6 +63,18 @@ const app = {
         try {
             const response = await fetch('data/datos_nutricionales_inta.json');
             this.alimentosData = await response.json();
+            
+            // Populate category filter
+            const categories = [...new Set(this.alimentosData.map(item => item.categoria))].filter(Boolean).sort((a, b) => a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' }));
+            const select = document.getElementById('category-filter');
+            if (select) {
+                categories.forEach(cat => {
+                    const option = document.createElement('option');
+                    option.value = cat;
+                    option.textContent = cat;
+                    select.appendChild(option);
+                });
+            }
         } catch (error) {
             console.error("Error loading JSON:", error);
         }
@@ -70,57 +82,190 @@ const app = {
 
     searchFood: function() {
         const query = document.getElementById('search-input').value.toLowerCase();
+        const category = document.getElementById('category-filter') ? document.getElementById('category-filter').value : '';
         const resultsList = document.getElementById('search-results');
         resultsList.innerHTML = '';
         
-        if (query.length < 2) {
-            resultsList.innerHTML = '<li class="empty-state">Ingresa al menos 2 letras para buscar.</li>';
-            this.clearFoodSelection();
+        if (query.length < 2 && category === "") {
+            resultsList.innerHTML = '<li class="empty-state" style="padding: 1rem;">Filtra por categoría o ingresa letras para buscar.</li>';
             return;
         }
 
-        const filtered = this.alimentosData.filter(item => 
-            item.alimento.toLowerCase().includes(query)
-        ).slice(0, 15);
+        let filtered = this.alimentosData;
+        
+        if (category !== "") {
+            filtered = filtered.filter(item => item.categoria === category);
+        }
+        
+        if (query.length >= 2) {
+            filtered = filtered.filter(item => item.alimento.toLowerCase().includes(query));
+        }
+        
+        // Increase limit since they are filtering
+        filtered = filtered.slice(0, 150);
 
         if (filtered.length === 0) {
-            resultsList.innerHTML = '<li class="empty-state">No se encontraron resultados.</li>';
+            resultsList.innerHTML = '<li class="empty-state" style="padding: 1rem;">No se encontraron resultados.</li>';
             return;
         }
 
         filtered.forEach(item => {
             const li = document.createElement('li');
             li.textContent = item.alimento;
-            li.dataset.id = item.alimento; // for active state
-            li.onclick = () => {
-                // Remove active class from all
-                Array.from(resultsList.children).forEach(c => c.classList.remove('active'));
+            li.dataset.id = item.alimento;
+            
+            if (this.selectedFoods.some(f => f.food.alimento === item.alimento)) {
                 li.classList.add('active');
-                this.selectFood(item);
+            }
+
+            li.onclick = () => {
+                li.classList.toggle('active');
+                this.toggleFoodSelection(item);
             };
             resultsList.appendChild(li);
         });
     },
 
     clearFoodSelection: function() {
-        this.currentFood = null;
-        document.getElementById('food-detail').classList.add('hidden');
-        document.getElementById('food-detail-empty').classList.remove('hidden');
+        this.selectedFoods = [];
+        this.renderSelectedFoods();
+        
+        // Clear active classes from search list
+        const resultsList = document.getElementById('search-results');
+        if(resultsList) {
+            Array.from(resultsList.children).forEach(c => c.classList.remove('active'));
+        }
     },
 
-    selectFood: function(item) {
-        this.currentFood = item;
-        document.getElementById('detail-name').textContent = item.alimento;
-        document.getElementById('calc-grams').value = 100;
-        document.getElementById('calc-kcal').value = '';
-        
-        document.getElementById('food-detail-empty').classList.add('hidden');
-        document.getElementById('food-detail').classList.remove('hidden');
-        
-        this.renderNutrients();
+    toggleFoodSelection: function(item) {
+        const index = this.selectedFoods.findIndex(f => f.food.alimento === item.alimento);
+        if (index > -1) {
+            this.selectedFoods.splice(index, 1);
+        } else {
+            this.selectedFoods.push({
+                food: item,
+                grams: 100,
+                targetKcal: ''
+            });
+        }
+        this.renderSelectedFoods();
     },
 
-    // --- FASE 2 y 3: CALCULADORA Y VISTAS ---
+    generateNutrientsHtml: function(index) {
+        const sel = this.selectedFoods[index];
+        const viewType = document.getElementById('view-selector').value;
+        let keysToRender = [];
+        if (viewType === 'completa') {
+            keysToRender = Object.keys(sel.food.nutrientes);
+        } else {
+            keysToRender = this.vistasClinicas[viewType] || this.vistasClinicas.basica;
+        }
+
+        let nutrientsHtml = '';
+        keysToRender.forEach(key => {
+            if (sel.food.nutrientes[key] !== undefined) {
+                const originalValue = sel.food.nutrientes[key];
+                const calcValue = this.calculateNutrientValue(originalValue, sel.grams);
+                nutrientsHtml += `
+                    <div class="nutrient-card" style="padding: 0.5rem; margin-bottom: 0.5rem;">
+                        <small>${key}</small>
+                        <span style="display:block;">${calcValue}</span>
+                    </div>
+                `;
+            }
+        });
+        return nutrientsHtml;
+    },
+
+    renderSelectedFoods: function() {
+        const container = document.getElementById('foods-comparison-container');
+        const emptyState = document.getElementById('food-detail-empty');
+        const controls = document.getElementById('foods-controls');
+        
+        document.getElementById('selected-count').textContent = this.selectedFoods.length;
+
+        if (this.selectedFoods.length === 0) {
+            container.classList.add('hidden');
+            controls.classList.add('hidden');
+            emptyState.classList.remove('hidden');
+            return;
+        }
+
+        emptyState.classList.add('hidden');
+        controls.classList.remove('hidden');
+        container.classList.remove('hidden');
+        
+        container.innerHTML = '';
+
+        this.selectedFoods.forEach((sel, index) => {
+            const nutrientsHtml = this.generateNutrientsHtml(index);
+
+            const col = document.createElement('div');
+            col.style.minWidth = "280px";
+            col.style.maxWidth = "300px";
+            col.style.border = "1px solid var(--border-color)";
+            col.style.borderRadius = "var(--radius-md)";
+            col.style.background = "var(--surface)";
+            col.style.display = "flex";
+            col.style.flexDirection = "column";
+
+            col.innerHTML = `
+                <div class="food-header" style="padding: 1rem; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: flex-start;">
+                    <h3 style="margin: 0; font-size: 1rem; word-break: break-word;">${sel.food.alimento}</h3>
+                    <button class="btn-text text-danger" onclick="app.removeSelectedFood(${index})" style="padding: 0; min-width: auto;">&times;</button>
+                </div>
+                
+                <div class="calculator-section" style="padding: 1rem; background-color: var(--background); border-bottom: 1px solid var(--border-color);">
+                    <div class="form-group">
+                        <label>Porción (g)</label>
+                        <input type="number" id="calc-grams-${index}" value="${sel.grams}" oninput="app.calculateByGrams(${index})">
+                    </div>
+                    <div class="form-group">
+                        <label>Meta (kcal)</label>
+                        <input type="number" id="calc-kcal-${index}" value="${sel.targetKcal}" placeholder="Opcional" oninput="app.calculateByKcal(${index})">
+                    </div>
+                    
+                    <div class="form-group" style="margin-top: 1rem;">
+                        <label>Asignar a:</label>
+                        <select id="meal-selector-${index}">
+                            <option value="desayuno">Desayuno</option>
+                            <option value="almuerzo">Almuerzo</option>
+                            <option value="once">Once</option>
+                            <option value="cena">Cena</option>
+                        </select>
+                    </div>
+                    <button class="btn-primary" style="width: 100%; margin-top: 0.5rem;" onclick="app.addToPlan(${index})">
+                        <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="vertical-align: middle; margin-right: 5px;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+                        Añadir a Pauta
+                    </button>
+                </div>
+
+                <div class="nutrients-section" id="nutrients-section-${index}" style="padding: 1rem; flex-grow: 1;">
+                    ${nutrientsHtml}
+                </div>
+                
+                <div style="padding: 1rem; border-top: 1px solid var(--border-color); text-align: center; background: var(--background);">
+                    <button class="btn-secondary" onclick="app.showSourceModal(${index})" style="width: 100%;">Ver Fuente INTA</button>
+                </div>
+            `;
+            container.appendChild(col);
+        });
+    },
+
+    removeSelectedFood: function(index) {
+        const item = this.selectedFoods[index].food;
+        this.selectedFoods.splice(index, 1);
+        
+        const resultsList = document.getElementById('search-results');
+        Array.from(resultsList.children).forEach(li => {
+            if (li.dataset.id === item.alimento) {
+                li.classList.remove('active');
+            }
+        });
+
+        this.renderSelectedFoods();
+    },
+
     calculateNutrientValue: function(value, grams) {
         if (value === "s/i" || value === undefined || value === null || isNaN(value)) {
             return "s/i";
@@ -128,75 +273,53 @@ const app = {
         return ((parseFloat(value) / 100) * grams).toFixed(2);
     },
 
-    renderNutrients: function() {
-        if (!this.currentFood) return;
-
-        const grams = parseFloat(document.getElementById('calc-grams').value) || 0;
-        const viewType = document.getElementById('view-selector').value;
-        const resultsContainer = document.getElementById('nutrient-results');
-        resultsContainer.innerHTML = '';
-
-        let keysToRender = [];
-        if (viewType === 'completa') {
-            keysToRender = Object.keys(this.currentFood.nutrientes);
-        } else {
-            keysToRender = this.vistasClinicas[viewType];
-        }
-
-        keysToRender.forEach(key => {
-            if (this.currentFood.nutrientes[key] !== undefined) {
-                const originalValue = this.currentFood.nutrientes[key];
-                const calcValue = this.calculateNutrientValue(originalValue, grams);
-                
-                const card = document.createElement('div');
-                card.className = 'nutrient-card';
-                card.innerHTML = `
-                    <small>${key}</small>
-                    <span>${calcValue}</span>
-                `;
-                resultsContainer.appendChild(card);
-            }
-        });
+    calculateByGrams: function(index) {
+        const gramsInput = document.getElementById(`calc-grams-${index}`).value;
+        this.selectedFoods[index].grams = parseFloat(gramsInput) || 0;
+        this.selectedFoods[index].targetKcal = '';
+        
+        const kcalInput = document.getElementById(`calc-kcal-${index}`);
+        if(kcalInput) kcalInput.value = '';
+        
+        const nutrientsDiv = document.getElementById(`nutrients-section-${index}`);
+        if(nutrientsDiv) nutrientsDiv.innerHTML = this.generateNutrientsHtml(index);
     },
 
-    calculateByGrams: function() {
-        document.getElementById('calc-kcal').value = '';
-        this.renderNutrients();
-    },
-
-    // --- FASE 7: GENERADOR INVERSO ---
-    calculateByKcal: function() {
-        if (!this.currentFood) return;
-        const targetKcal = parseFloat(document.getElementById('calc-kcal').value) || 0;
-        const kcalPer100 = parseFloat(this.currentFood.nutrientes['Energía (kcal)']);
+    calculateByKcal: function(index) {
+        const targetKcal = parseFloat(document.getElementById(`calc-kcal-${index}`).value) || 0;
+        const kcalPer100 = parseFloat(this.selectedFoods[index].food.nutrientes['Energía (kcal)']);
         
         if (kcalPer100 && !isNaN(kcalPer100) && kcalPer100 > 0) {
             const gramsNeeded = (targetKcal * 100) / kcalPer100;
-            document.getElementById('calc-grams').value = gramsNeeded.toFixed(2);
-            this.renderNutrients();
+            this.selectedFoods[index].grams = gramsNeeded;
+            this.selectedFoods[index].targetKcal = targetKcal;
+            
+            const gramsInput = document.getElementById(`calc-grams-${index}`);
+            if(gramsInput) gramsInput.value = gramsNeeded.toFixed(2);
+            
+            const nutrientsDiv = document.getElementById(`nutrients-section-${index}`);
+            if(nutrientsDiv) nutrientsDiv.innerHTML = this.generateNutrientsHtml(index);
         }
     },
 
-    // --- FASE 4: PAUTA / R24 ---
-    addToPlan: function() {
-        if (!this.currentFood) {
-            alert("Selecciona un alimento primero.");
-            return;
-        }
+    addToPlan: function(index) {
+        const sel = this.selectedFoods[index];
+        if (!sel || !sel.food) return;
+
         if (!this.currentPatientId) {
             if(!confirm("No tienes un paciente seleccionado. ¿Deseas añadirlo a una pauta temporal de todas formas?")) {
                 return;
             }
         }
 
-        const meal = document.getElementById('meal-selector').value;
-        const grams = parseFloat(document.getElementById('calc-grams').value) || 0;
+        const meal = document.getElementById(`meal-selector-${index}`).value;
+        const grams = sel.grams;
         
         const item = {
-            id: Date.now().toString() + Math.floor(Math.random()*1000), // Ensures uniqueness
-            alimento: this.currentFood.alimento,
-            gramos: grams,
-            nutrientesOrig: this.currentFood.nutrientes
+            id: Date.now().toString() + Math.floor(Math.random()*1000),
+            alimento: sel.food.alimento,
+            gramos: parseFloat(grams.toFixed(2)),
+            nutrientesOrig: sel.food.nutrientes
         };
 
         this.plan[meal].push(item);
@@ -206,8 +329,7 @@ const app = {
             this.savePlanToPatient();
         }
 
-        // Optional: show a small non-intrusive toast instead of alert, but alert works for MVP.
-        alert(`Añadido: ${this.currentFood.alimento} (${grams}g) al ${meal}`);
+        alert(`Añadido: ${sel.food.alimento} (${item.gramos}g) al ${meal}`);
     },
 
     removeFromPlan: function(meal, itemId) {
@@ -223,6 +345,8 @@ const app = {
             const list = document.querySelector(`#meal-${meal} .meal-items`);
             list.innerHTML = '';
             
+            let mealTotals = { 'Energía (kcal)': 0, 'Proteínas (g)': 0, 'H de C disp. (g)': 0, 'Lípidos totales (g)': 0 };
+
             if (this.plan[meal].length === 0) {
                 list.innerHTML = '<li class="empty-state" style="border:none; justify-content:center; padding: 2rem 1rem;">Sin alimentos añadidos</li>';
             }
@@ -230,6 +354,13 @@ const app = {
             this.plan[meal].forEach(item => {
                 const li = document.createElement('li');
                 const kcal = this.calculateNutrientValue(item.nutrientesOrig['Energía (kcal)'], item.gramos);
+                
+                Object.keys(mealTotals).forEach(key => {
+                    const val = item.nutrientesOrig[key];
+                    if (val !== 's/i' && val !== undefined) {
+                        mealTotals[key] += (parseFloat(val) / 100) * item.gramos;
+                    }
+                });
                 
                 li.innerHTML = `
                     <div class="item-info">
@@ -242,6 +373,23 @@ const app = {
                 `;
                 list.appendChild(li);
             });
+
+            const summaryDiv = document.getElementById(`summary-${meal}`);
+            if (summaryDiv) {
+                if (this.plan[meal].length > 0) {
+                    summaryDiv.innerHTML = `
+                        <div class="ms-total"><strong>${mealTotals['Energía (kcal)'].toFixed(0)}</strong> kcal</div>
+                        <div class="ms-macros">
+                            <span class="macro-badge protein">P: ${mealTotals['Proteínas (g)'].toFixed(1)}g</span>
+                            <span class="macro-badge carbs">C: ${mealTotals['H de C disp. (g)'].toFixed(1)}g</span>
+                            <span class="macro-badge fat">G: ${mealTotals['Lípidos totales (g)'].toFixed(1)}g</span>
+                        </div>
+                    `;
+                    summaryDiv.style.display = 'flex';
+                } else {
+                    summaryDiv.style.display = 'none';
+                }
+            }
         });
         
         this.updatePlanSummary();
@@ -324,10 +472,34 @@ const app = {
     },
 
     // --- FASE 6: TRAZABILIDAD ---
-    showSourceModal: function() {
-        if (!this.currentFood) return;
-        document.getElementById('source-category').textContent = this.currentFood.categoria || 'Sin Categoría';
+    showSourceModal: function(index) {
+        const sel = this.selectedFoods[index];
+        if (!sel || !sel.food) return;
+        
+        document.getElementById('source-category').textContent = sel.food.categoria || 'Sin Categoría';
+        
+        const imgContainer = document.getElementById('modal-image-container');
+        const placeholder = document.getElementById('modal-placeholder');
+        const sourceImg = document.getElementById('source-image');
+        
+        // Reset zoom
+        sourceImg.classList.remove('zoomed');
+
+        if (sel.food.imagen_fuente) {
+            sourceImg.src = 'assets/images/' + sel.food.imagen_fuente;
+            imgContainer.classList.remove('hidden');
+            placeholder.classList.add('hidden');
+        } else {
+            imgContainer.classList.add('hidden');
+            placeholder.classList.remove('hidden');
+        }
+
         document.getElementById('source-modal').classList.remove('hidden');
+    },
+    
+    handleImageError: function() {
+        document.getElementById('modal-image-container').classList.add('hidden');
+        document.getElementById('modal-placeholder').classList.remove('hidden');
     },
 
     closeSourceModal: function() {
@@ -509,9 +681,13 @@ const app = {
         const buttons = element.querySelectorAll('.btn-delete');
         buttons.forEach(b => b.style.display = 'none');
         
-        // Styling tweaks for PDF rendering
-        element.style.background = "white";
-        element.style.padding = "20px";
+        // Add specific class for PDF layout
+        element.classList.add('pdf-export-mode');
+        
+        // Force chart to resize to the new CSS constraints
+        if (this.macroChart) {
+            this.macroChart.resize();
+        }
         
         const opt = {
             margin:       0.5,
@@ -521,13 +697,20 @@ const app = {
             jsPDF:        { unit: 'in', format: 'letter', orientation: 'portrait' }
         };
 
-        html2pdf().set(opt).from(element).save().then(() => {
-            // Restore buttons & styles
-            buttons.forEach(b => b.style.display = 'flex');
-            pdfHeader.classList.add('hidden');
-            element.style.background = "";
-            element.style.padding = "";
-        });
+        // Give the DOM and Chart.js 300ms to settle the new layout before capturing
+        setTimeout(() => {
+            html2pdf().set(opt).from(element).save().then(() => {
+                // Restore buttons & styles
+                buttons.forEach(b => b.style.display = 'flex');
+                pdfHeader.classList.add('hidden');
+                element.classList.remove('pdf-export-mode');
+                
+                // Force chart to resize back to normal web layout
+                if (this.macroChart) {
+                    this.macroChart.resize();
+                }
+            });
+        }, 300);
     }
 };
 
