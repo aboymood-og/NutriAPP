@@ -3,6 +3,7 @@ const app = {
     selectedFoods: [],
     patients: [],
     currentPatientId: null,
+    expandedMeals: { desayuno: false, almuerzo: false, once: false, cena: false },
     plan: {
         desayuno: [],
         almuerzo: [],
@@ -424,8 +425,81 @@ const app = {
         });
 
         this.updateChart(totals['Proteínas (g)'], totals['H de C disp. (g)'], totals['Lípidos totales (g)']);
+        this.renderFullNutrientTable();
     },
 
+
+
+    toggleMealExpansion: function(meal) {
+        this.expandedMeals[meal] = !this.expandedMeals[meal];
+        this.renderFullNutrientTable();
+    },
+    renderFullNutrientTable: function() {
+        const thead = document.querySelector('#plan-nutrient-table thead');
+        const tbody = document.querySelector('#plan-nutrient-table tbody');
+        if (!tbody || !thead || !this.alimentosData || this.alimentosData.length === 0) return;
+        
+        const allNutrients = Object.keys(this.alimentosData[0].nutrientes).filter(k => k.trim() !== '');
+        const meals = ['desayuno', 'almuerzo', 'once', 'cena'];
+
+        // --- Build THEAD ---
+        let theadHtml = '<tr><th>Nutriente</th>';
+        meals.forEach(meal => {
+            const mealName = meal.charAt(0).toUpperCase() + meal.slice(1);
+            if (this.expandedMeals[meal]) {
+                theadHtml += `<th class="clickable-th active" onclick="app.toggleMealExpansion('${meal}')">${mealName} <span>(-)</span></th>`;
+                this.plan[meal].forEach(item => {
+                    const foodName = item.alimento.substring(0, 15) + (item.alimento.length > 15 ? '...' : '');
+                    theadHtml += `<th class="expanded-col">${foodName}</th>`;
+                });
+            } else {
+                theadHtml += `<th class="clickable-th" title="Haz clic para desglosar alimentos" onclick="app.toggleMealExpansion('${meal}')">${mealName} <span>(+)</span></th>`;
+            }
+        });
+        theadHtml += '<th class="col-total">Total Diario</th></tr>';
+        thead.innerHTML = theadHtml;
+
+        // --- Build TBODY ---
+        let tbodyHtml = '';
+        allNutrients.forEach(nutrient => {
+            let rowHtml = `<td>${nutrient}</td>`;
+            let totalDay = 0;
+
+            meals.forEach(meal => {
+                let mealTotal = 0;
+                let itemCells = '';
+
+                this.plan[meal].forEach(item => {
+                    let numVal = 0;
+                    const val = item.nutrientesOrig[nutrient];
+                    if (val !== 's/i' && val !== undefined && val !== null) {
+                        const parsed = parseFloat(val);
+                        if (!isNaN(parsed)) numVal = parsed;
+                    }
+                    const itemTotal = (numVal / 100) * item.gramos;
+                    mealTotal += itemTotal;
+
+                    if (this.expandedMeals[meal]) {
+                        itemCells += `<td class="expanded-cell">${itemTotal > 0 ? itemTotal.toFixed(1) : '-'}</td>`;
+                    }
+                });
+
+                if (this.expandedMeals[meal]) {
+                    rowHtml += `<td class="subtotal-cell">${mealTotal > 0 ? mealTotal.toFixed(1) : '-'}</td>`;
+                    rowHtml += itemCells;
+                } else {
+                    rowHtml += `<td>${mealTotal > 0 ? mealTotal.toFixed(1) : '-'}</td>`;
+                }
+                
+                totalDay += mealTotal;
+            });
+            
+            rowHtml += `<td class="col-total">${totalDay > 0 ? totalDay.toFixed(1) : '-'}</td>`;
+            tbodyHtml += `<tr>${rowHtml}</tr>`;
+        });
+
+        tbody.innerHTML = tbodyHtml;
+    },
     clearPlan: function() {
         if(confirm("¿Seguro que deseas limpiar todos los alimentos de la pauta actual?")) {
             this.plan = { desayuno: [], almuerzo: [], once: [], cena: [] };

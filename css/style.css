@@ -786,3 +786,100 @@ img.zoomed { transform: scale(2); cursor: zoom-out !important; transform-origin:
     color: #000 !important;
     font-weight: 700 !important;
 }
+
+/* --- TABLA NUTRICIONAL DETALLADA --- */
+.nutrient-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 600px;
+    font-size: 0.9rem;
+}
+.nutrient-table th, .nutrient-table td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid var(--border-color);
+    text-align: right;
+}
+.nutrient-table th:first-child, .nutrient-table td:first-child {
+    text-align: left;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+.nutrient-table th {
+    background-color: var(--background);
+    color: var(--text-muted);
+    font-weight: 600;
+}
+.nutrient-table .col-total {
+    background-color: #f1f5f9;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+.nutrient-table tr:hover {
+    background-color: #f8fafc;
+}
+
+/* Ajustes PDF para la tabla */
+.pdf-export-mode .full-nutrient-table-container {
+    display: block !important;
+    margin-top: 2rem !important;
+    page-break-before: always;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+}
+.pdf-export-mode .full-nutrient-table-container h3 {
+    color: #000 !important;
+    border-bottom: 2px solid #000;
+    padding-bottom: 0.5rem;
+}
+.pdf-export-mode .nutrient-table {
+    font-size: 0.8rem !important;
+    color: #000 !important;
+}
+.pdf-export-mode .nutrient-table th, .pdf-export-mode .nutrient-table td {
+    padding: 0.4rem !important;
+    border-bottom: 1px solid #ccc !important;
+    color: #000 !important;
+}
+.pdf-export-mode .nutrient-table th {
+    background-color: #f0f0f0 !important;
+    border-bottom: 2px solid #000 !important;
+}
+.pdf-export-mode .nutrient-table .col-total {
+    background-color: #f9f9f9 !important;
+}
+
+/* --- EXPANSIÓN TABLA NUTRICIONAL --- */
+.nutrient-table .clickable-th {
+    cursor: pointer;
+    color: var(--primary-color);
+    transition: background 0.2s;
+}
+.nutrient-table .clickable-th span {
+    font-size: 0.75rem;
+    opacity: 0.7;
+}
+.nutrient-table .clickable-th:hover {
+    background-color: #e2e8f0;
+}
+.nutrient-table .clickable-th.active {
+    background-color: #cbd5e1;
+    color: #0f172a;
+}
+.nutrient-table .expanded-col {
+    background-color: #f1f5f9;
+    font-weight: normal;
+    font-size: 0.8rem;
+    color: #475569;
+    border-left: 1px dashed #cbd5e1;
+}
+.nutrient-table .expanded-cell {
+    background-color: #f8fafc;
+    color: #64748b;
+    border-left: 1px dashed #cbd5e1;
+}
+.nutrient-table .subtotal-cell {
+    background-color: #f1f5f9;
+    font-weight: 600;
+    border-left: 2px solid var(--border-color);
+}
