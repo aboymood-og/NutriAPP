@@ -1,5 +1,7 @@
 const app = {
     alimentosData: [],
+    porcionesData: [],
+    dbMode: 'inta',
     selectedFoods: [],
     patients: [],
     currentPatientId: null,
@@ -62,23 +64,62 @@ const app = {
     // --- FASE 1: BASE DE DATOS ---
     loadDatabase: async function() {
         try {
-            const response = await fetch('data/datos_nutricionales_inta.json');
-            this.alimentosData = await response.json();
+            const responseInta = await fetch('data/datos_nutricionales_inta.json');
+            this.alimentosData = await responseInta.json();
             
-            // Populate category filter
-            const categories = [...new Set(this.alimentosData.map(item => item.categoria))].filter(Boolean).sort((a, b) => a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' }));
-            const select = document.getElementById('category-filter');
-            if (select) {
-                categories.forEach(cat => {
-                    const option = document.createElement('option');
-                    option.value = cat;
-                    option.textContent = cat;
-                    select.appendChild(option);
-                });
-            }
+            const responsePorc = await fetch('data/porciones.json');
+            this.porcionesData = await responsePorc.json();
+            
+            this.populateCategoryFilter();
         } catch (error) {
             console.error("Error loading JSON:", error);
         }
+    },
+
+    populateCategoryFilter: function() {
+        const data = this.dbMode === 'inta' ? this.alimentosData : this.porcionesData;
+        const categories = [...new Set(data.map(item => item.categoria))].filter(Boolean).sort((a, b) => a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' }));
+        const select = document.getElementById('category-filter');
+        if (select) {
+            select.innerHTML = '<option value="">-- Todas las categorías --</option>';
+            categories.forEach(cat => {
+                const option = document.createElement('option');
+                option.value = cat;
+                option.textContent = cat;
+                select.appendChild(option);
+            });
+        }
+    },
+
+    toggleDbMode: function(mode) {
+        if(this.dbMode === mode) return;
+        
+        const planHasItems = Object.values(this.plan).some(meal => meal.length > 0);
+        if(planHasItems) {
+            if(!confirm("Al cambiar de base de datos se limpiará la pauta actual para evitar mezclar alimentos incompatibles. ¿Continuar?")) {
+                document.getElementById('mode-' + this.dbMode).checked = true;
+                return;
+            }
+            this.clearPlanStateWithoutSaving();
+            if(this.currentPatientId) {
+                this.savePlanToPatient();
+            }
+        }
+        
+        this.dbMode = mode;
+        this.clearFoodSelection();
+        this.populateCategoryFilter();
+        
+        const searchInput = document.getElementById('search-input');
+        if (searchInput) searchInput.value = '';
+        this.searchFood();
+        
+        const viewSelector = document.getElementById('view-selector');
+        if (viewSelector) {
+            viewSelector.style.display = this.dbMode === 'inta' ? 'block' : 'none';
+        }
+        
+        this.renderFullNutrientTable();
     },
 
     searchFood: function() {
@@ -92,7 +133,8 @@ const app = {
             return;
         }
 
-        let filtered = this.alimentosData;
+        const dataSource = this.dbMode === 'inta' ? this.alimentosData : this.porcionesData;
+        let filtered = dataSource;
         
         if (category !== "") {
             filtered = filtered.filter(item => item.categoria === category);
@@ -143,20 +185,69 @@ const app = {
         if (index > -1) {
             this.selectedFoods.splice(index, 1);
         } else {
+            const defaultGrams = this.dbMode === 'porciones' ? parseFloat(item.gramos) || 100 : 100;
             this.selectedFoods.push({
                 food: item,
-                grams: 100,
-                targetKcal: ''
+                grams: defaultGrams,
+                targetKcal: '',
+                portions: 1 // for porciones mode
             });
         }
         this.renderSelectedFoods();
     },
 
+    multiplyMeasureText: function(text, multiplier) {
+        if(!text || text === 's/i') return text;
+        if(multiplier === 1) return text;
+        
+        function parseFrac(str) {
+            if(str === '½') return 0.5;
+            if(str === '¼') return 0.25;
+            if(str === '¾') return 0.75;
+            if(str === '1/3') return 0.333;
+            if(str === '2/3') return 0.666;
+            if(str === '1/2') return 0.5;
+            if(str === '1/4') return 0.25;
+            if(str === '3/4') return 0.75;
+            return null;
+        }
+        
+        function formatFrac(val) {
+            const whole = Math.floor(val);
+            const rem = val - whole;
+            let fracStr = "";
+            if(Math.abs(rem - 0.25) < 0.05) fracStr = "¼";
+            else if(Math.abs(rem - 0.5) < 0.05) fracStr = "½";
+            else if(Math.abs(rem - 0.75) < 0.05) fracStr = "¾";
+            else if(Math.abs(rem - 0.333) < 0.05) fracStr = "1/3";
+            else if(Math.abs(rem - 0.666) < 0.05) fracStr = "2/3";
+            else if(rem > 0.01) fracStr = rem.toFixed(2).replace('.00', '');
+            
+            if(whole > 0 && fracStr) return `${whole} ${fracStr}`;
+            if(whole > 0) return `${whole}`;
+            if(fracStr) return fracStr;
+            return "0";
+        }
+
+        return text.replace(/^([\d\s½¼¾\/\.]+)\s*(.*)$/, (match, numStr, unit) => {
+            let total = 0;
+            const parts = numStr.trim().split(/\s+/);
+            parts.forEach(p => {
+                const f = parseFrac(p);
+                if(f !== null) total += f;
+                else total += parseFloat(p) || 0;
+            });
+            if(total === 0) return text;
+            const newTotal = total * multiplier;
+            return `${formatFrac(newTotal)} ${unit}`;
+        });
+    },
+
     generateNutrientsHtml: function(index) {
         const sel = this.selectedFoods[index];
-        const viewType = document.getElementById('view-selector').value;
+        const viewType = this.dbMode === 'inta' ? document.getElementById('view-selector').value : 'basica';
         let keysToRender = [];
-        if (viewType === 'completa') {
+        if (viewType === 'completa' && this.dbMode === 'inta') {
             keysToRender = Object.keys(sel.food.nutrientes);
         } else {
             keysToRender = this.vistasClinicas[viewType] || this.vistasClinicas.basica;
@@ -210,13 +301,11 @@ const app = {
             col.style.display = "flex";
             col.style.flexDirection = "column";
 
-            col.innerHTML = `
-                <div class="food-header" style="padding: 1rem; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: flex-start;">
-                    <h3 style="margin: 0; font-size: 1rem; word-break: break-word;">${sel.food.alimento}</h3>
-                    <button class="btn-text text-danger" onclick="app.removeSelectedFood(${index})" style="padding: 0; min-width: auto;">&times;</button>
-                </div>
-                
-                <div class="calculator-section" style="padding: 1rem; background-color: var(--background); border-bottom: 1px solid var(--border-color);">
+            let calcSection = '';
+            let referenceButton = '';
+            
+            if (this.dbMode === 'inta') {
+                calcSection = `
                     <div class="form-group">
                         <label>Porción (g)</label>
                         <input type="number" id="calc-grams-${index}" value="${sel.grams}" oninput="app.calculateByGrams(${index})">
@@ -225,7 +314,37 @@ const app = {
                         <label>Meta (kcal)</label>
                         <input type="number" id="calc-kcal-${index}" value="${sel.targetKcal}" placeholder="Opcional" oninput="app.calculateByKcal(${index})">
                     </div>
-                    
+                `;
+                referenceButton = `<button class="btn-secondary" onclick="app.showSourceModal(${index})" style="width: 100%;">Ver Fuente INTA</button>`;
+            } else {
+                const medidaOriginal = sel.food.medida_casera || '';
+                const medidaActual = this.multiplyMeasureText(medidaOriginal, sel.portions);
+                calcSection = `
+                    <div class="form-group">
+                        <label>Nº Porciones</label>
+                        <input type="number" step="0.25" id="calc-portions-${index}" value="${sel.portions}" oninput="app.calculateByPortions(${index})">
+                    </div>
+                    <div class="form-group">
+                        <label>Gramos (g)</label>
+                        <input type="number" id="calc-grams-${index}" value="${sel.grams}" oninput="app.calculateByGramsPortion(${index})">
+                    </div>
+                    <div style="width: 100%; margin-top: 0.8rem; text-align: center; color: var(--secondary-color); font-size: 0.85rem; padding: 0.5rem; background: rgba(59, 130, 246, 0.05); border-radius: var(--radius-md);">
+                        Equivalente a:<br>
+                        <strong style="font-size: 1.1rem; display: block; margin: 0.2rem 0;" id="calc-measure-${index}">${medidaActual}</strong>
+                        <small style="color: var(--text-muted); font-weight: normal;">(1 porción = ${medidaOriginal})</small>
+                    </div>
+                `;
+                referenceButton = `<button class="btn-secondary" onclick="app.showSourceModal(${index})" style="width: 100%;">Ver Referencia Porciones</button>`;
+            }
+
+            col.innerHTML = `
+                <div class="food-header" style="padding: 1rem; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: flex-start;">
+                    <h3 style="margin: 0; font-size: 1rem; word-break: break-word;">${sel.food.alimento}</h3>
+                    <button class="btn-text text-danger" onclick="app.removeSelectedFood(${index})" style="padding: 0; min-width: auto;">&times;</button>
+                </div>
+                
+                <div class="calculator-section" style="padding: 1rem; background-color: var(--background); border-bottom: 1px solid var(--border-color);">
+                    ${calcSection}
                     <div class="form-group" style="margin-top: 1rem;">
                         <label>Asignar a:</label>
                         <select id="meal-selector-${index}">
@@ -246,7 +365,7 @@ const app = {
                 </div>
                 
                 <div style="padding: 1rem; border-top: 1px solid var(--border-color); text-align: center; background: var(--background);">
-                    <button class="btn-secondary" onclick="app.showSourceModal(${index})" style="width: 100%;">Ver Fuente INTA</button>
+                    ${referenceButton}
                 </div>
             `;
             container.appendChild(col);
@@ -301,6 +420,40 @@ const app = {
             const nutrientsDiv = document.getElementById(`nutrients-section-${index}`);
             if(nutrientsDiv) nutrientsDiv.innerHTML = this.generateNutrientsHtml(index);
         }
+    },
+
+    calculateByPortions: function(index) {
+        const portionsInput = parseFloat(document.getElementById(`calc-portions-${index}`).value) || 0;
+        const baseGrams = parseFloat(this.selectedFoods[index].food.gramos) || 100;
+        
+        this.selectedFoods[index].portions = portionsInput;
+        this.selectedFoods[index].grams = portionsInput * baseGrams;
+        
+        const gramsInput = document.getElementById(`calc-grams-${index}`);
+        if(gramsInput) gramsInput.value = this.selectedFoods[index].grams.toFixed(2);
+        
+        const nutrientsDiv = document.getElementById(`nutrients-section-${index}`);
+        if(nutrientsDiv) nutrientsDiv.innerHTML = this.generateNutrientsHtml(index);
+        
+        const measureSpan = document.getElementById(`calc-measure-${index}`);
+        if(measureSpan) measureSpan.textContent = this.multiplyMeasureText(this.selectedFoods[index].food.medida_casera, portionsInput);
+    },
+
+    calculateByGramsPortion: function(index) {
+        const gramsInput = parseFloat(document.getElementById(`calc-grams-${index}`).value) || 0;
+        const baseGrams = parseFloat(this.selectedFoods[index].food.gramos) || 100;
+        
+        this.selectedFoods[index].grams = gramsInput;
+        this.selectedFoods[index].portions = gramsInput / baseGrams;
+        
+        const portionsInput = document.getElementById(`calc-portions-${index}`);
+        if(portionsInput) portionsInput.value = this.selectedFoods[index].portions.toFixed(2);
+        
+        const nutrientsDiv = document.getElementById(`nutrients-section-${index}`);
+        if(nutrientsDiv) nutrientsDiv.innerHTML = this.generateNutrientsHtml(index);
+        
+        const measureSpan = document.getElementById(`calc-measure-${index}`);
+        if(measureSpan) measureSpan.textContent = this.multiplyMeasureText(this.selectedFoods[index].food.medida_casera, this.selectedFoods[index].portions);
     },
 
     addToPlan: function(index) {
@@ -437,9 +590,17 @@ const app = {
     renderFullNutrientTable: function() {
         const thead = document.querySelector('#plan-nutrient-table thead');
         const tbody = document.querySelector('#plan-nutrient-table tbody');
-        if (!tbody || !thead || !this.alimentosData || this.alimentosData.length === 0) return;
+        if (!tbody || !thead) return;
         
-        const allNutrients = Object.keys(this.alimentosData[0].nutrientes).filter(k => k.trim() !== '');
+        let allNutrients = [];
+        if(this.dbMode === 'inta' && this.alimentosData.length > 0) {
+            allNutrients = Object.keys(this.alimentosData[0].nutrientes).filter(k => k.trim() !== '');
+        } else if (this.dbMode === 'porciones') {
+            allNutrients = ['Energía (kcal)', 'Proteínas (g)', 'Lípidos totales (g)', 'H de C disp. (g)'];
+        }
+        
+        if (allNutrients.length === 0) return;
+        
         const meals = ['desayuno', 'almuerzo', 'once', 'cena'];
 
         // --- Build THEAD ---
@@ -560,7 +721,8 @@ const app = {
         sourceImg.classList.remove('zoomed');
 
         if (sel.food.imagen_fuente) {
-            sourceImg.src = 'assets/images/' + sel.food.imagen_fuente;
+            const basePath = this.dbMode === 'inta' ? 'assets/images/' : 'assets/images/porcionesimages/';
+            sourceImg.src = basePath + sel.food.imagen_fuente;
             imgContainer.classList.remove('hidden');
             placeholder.classList.add('hidden');
         } else {
@@ -607,6 +769,7 @@ const app = {
             weight: document.getElementById('patient-weight').value,
             height: document.getElementById('patient-height').value,
             bmi: document.getElementById('patient-bmi').textContent,
+            planMode: idInput ? (this.patients.find(p => p.id === idInput)?.planMode || this.dbMode) : this.dbMode,
             plan: idInput ? (this.patients.find(p => p.id === idInput)?.plan || this.plan) : { desayuno: [], almuerzo: [], once: [], cena: [] }
         };
 
@@ -670,7 +833,7 @@ const app = {
             li.innerHTML = `
                 <div class="item-info">
                     <span class="item-name">${p.name}</span>
-                    <span class="item-meta">IMC: ${p.bmi} | ${p.age} años</span>
+                    <span class="item-meta">IMC: ${p.bmi} | ${p.age} años | Modo: ${p.planMode === 'porciones' ? 'Porciones' : 'INTA'}</span>
                 </div>
                 <div style="display:flex; gap:0.5rem;">
                     <button class="btn-secondary" onclick="app.selectPatient('${p.id}')">Seleccionar</button>
@@ -695,6 +858,23 @@ const app = {
         document.getElementById('patient-weight').value = p.weight;
         document.getElementById('patient-height').value = p.height;
         this.calculateBMI();
+
+        // Restore DbMode if it exists
+        if (p.planMode && p.planMode !== this.dbMode) {
+            document.getElementById('mode-' + p.planMode).checked = true;
+            this.dbMode = p.planMode;
+            this.clearFoodSelection();
+            this.populateCategoryFilter();
+            
+            const searchInput = document.getElementById('search-input');
+            if (searchInput) searchInput.value = '';
+            this.searchFood();
+            
+            const viewSelector = document.getElementById('view-selector');
+            if (viewSelector) {
+                viewSelector.style.display = this.dbMode === 'inta' ? 'block' : 'none';
+            }
+        }
 
         // Load Plan
         this.plan = p.plan || { desayuno: [], almuerzo: [], once: [], cena: [] };

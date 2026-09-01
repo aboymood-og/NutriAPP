@@ -113,7 +113,15 @@
             <div class="split-pane">
                 <!-- Panel Izquierdo: Buscador -->
                 <div class="pane-left card">
-                    <h3>Buscador de Alimentos</h3>
+                    <div style="margin-bottom: 1rem;">
+                        <h3 style="margin: 0 0 0.5rem 0;">Buscador de Alimentos</h3>
+                        <div class="db-toggle" style="width: 100%;">
+                            <input type="radio" id="mode-inta" name="db_mode" value="inta" checked onchange="app.toggleDbMode(this.value)">
+                            <label for="mode-inta" style="flex: 1; text-align: center;">INTA</label>
+                            <input type="radio" id="mode-porciones" name="db_mode" value="porciones" onchange="app.toggleDbMode(this.value)">
+                            <label for="mode-porciones" style="flex: 1; text-align: center;">Porciones</label>
+                        </div>
+                    </div>
                     <div class="form-group" style="margin-bottom: 0.75rem;">
                         <select id="category-filter" onchange="app.searchFood()" style="width: 100%; font-size: 0.9rem; padding: 0.5rem;">
                             <option value="">-- Todas las categorías --</option>

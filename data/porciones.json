@@ -1,0 +1,3714 @@
+[
+  {
+    "categoria": "PANES, CEREALES, TUBÉRCULOS Y LEGUMINOSAS FRESCAS",
+    "macros_generales": "140 Kcal, 30 grs hidratos de carbono, 3 grs proteína y 1 grs lípidos",
+    "tipo": "CEREALES Y PASTAS CRUDAS",
+    "alimento": "Arroz blanco crudo",
+    "gramos": "40",
+    "medida_casera": "¼ taza",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0001.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 350,
+      "H de C disp. (g)": 75,
+      "Proteínas (g)": 7.5,
+      "Lípidos totales (g)": 2.5
+    }
+  },
+  {
+    "categoria": "PANES, CEREALES, TUBÉRCULOS Y LEGUMINOSAS FRESCAS",
+    "macros_generales": "140 Kcal, 30 grs hidratos de carbono, 3 grs proteína y 1 grs lípidos",
+    "tipo": "CEREALES Y PASTAS CRUDAS",
+    "alimento": "Arroz integral crudo",
+    "gramos": "40",
+    "medida_casera": "¼ taza",
+    "nutrientes_destacados": "Alto en fibra (>3 grs)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0001.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 350,
+      "H de C disp. (g)": 75,
+      "Proteínas (g)": 7.5,
+      "Lípidos totales (g)": 2.5
+    }
+  },
+  {
+    "categoria": "PANES, CEREALES, TUBÉRCULOS Y LEGUMINOSAS FRESCAS",
+    "macros_generales": "140 Kcal, 30 grs hidratos de carbono, 3 grs proteína y 1 grs lípidos",
+    "tipo": "CEREALES Y PASTAS CRUDAS",
+    "alimento": "Avena",
+    "gramos": "40",
+    "medida_casera": "6 cucharadas",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0001.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 350,
+      "H de C disp. (g)": 75,
+      "Proteínas (g)": 7.5,
+      "Lípidos totales (g)": 2.5
+    }
+  },
+  {
+    "categoria": "PANES, CEREALES, TUBÉRCULOS Y LEGUMINOSAS FRESCAS",
+    "macros_generales": "140 Kcal, 30 grs hidratos de carbono, 3 grs proteína y 1 grs lípidos",
+    "tipo": "CEREALES Y PASTAS CRUDAS",
+    "alimento": "Chuchoca",
+    "gramos": "40",
+    "medida_casera": "6 cucharadas",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0001.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 350,
+      "H de C disp. (g)": 75,
+      "Proteínas (g)": 7.5,
+      "Lípidos totales (g)": 2.5
+    }
+  },
+  {
+    "categoria": "PANES, CEREALES, TUBÉRCULOS Y LEGUMINOSAS FRESCAS",
+    "macros_generales": "140 Kcal, 30 grs hidratos de carbono, 3 grs proteína y 1 grs lípidos",
+    "tipo": "CEREALES Y PASTAS CRUDAS",
+    "alimento": "Chuño",
+    "gramos": "40",
+    "medida_casera": "4 cucharadas",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0001.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 350,
+      "H de C disp. (g)": 75,
+      "Proteínas (g)": 7.5,
+      "Lípidos totales (g)": 2.5
+    }
+  },
+  {
+    "categoria": "PANES, CEREALES, TUBÉRCULOS Y LEGUMINOSAS FRESCAS",
+    "macros_generales": "140 Kcal, 30 grs hidratos de carbono, 3 grs proteína y 1 grs lípidos",
+    "tipo": "CEREALES Y PASTAS CRUDAS",
+    "alimento": "Pastas crudas",
+    "gramos": "40",
+    "medida_casera": "½ taza",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0001.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 350,
+      "H de C disp. (g)": 75,
+      "Proteínas (g)": 7.5,
+      "Lípidos totales (g)": 2.5
+    }
+  },
+  {
+    "categoria": "PANES, CEREALES, TUBÉRCULOS Y LEGUMINOSAS FRESCAS",
+    "macros_generales": "140 Kcal, 30 grs hidratos de carbono, 3 grs proteína y 1 grs lípidos",
+    "tipo": "CEREALES Y PASTAS CRUDAS",
+    "alimento": "Harina tostada",
+    "gramos": "40",
+    "medida_casera": "4 cucharadas",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0001.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 350,
+      "H de C disp. (g)": 75,
+      "Proteínas (g)": 7.5,
+      "Lípidos totales (g)": 2.5
+    }
+  },
+  {
+    "categoria": "PANES, CEREALES, TUBÉRCULOS Y LEGUMINOSAS FRESCAS",
+    "macros_generales": "140 Kcal, 30 grs hidratos de carbono, 3 grs proteína y 1 grs lípidos",
+    "tipo": "CEREALES Y PASTAS CRUDAS",
+    "alimento": "Harina de trigo",
+    "gramos": "40",
+    "medida_casera": "4 cucharadas",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0001.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 350,
+      "H de C disp. (g)": 75,
+      "Proteínas (g)": 7.5,
+      "Lípidos totales (g)": 2.5
+    }
+  },
+  {
+    "categoria": "PANES, CEREALES, TUBÉRCULOS Y LEGUMINOSAS FRESCAS",
+    "macros_generales": "140 Kcal, 30 grs hidratos de carbono, 3 grs proteína y 1 grs lípidos",
+    "tipo": "CEREALES Y PASTAS CRUDAS",
+    "alimento": "Maicena",
+    "gramos": "40",
+    "medida_casera": "4 cucharadas",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0001.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 350,
+      "H de C disp. (g)": 75,
+      "Proteínas (g)": 7.5,
+      "Lípidos totales (g)": 2.5
+    }
+  },
+  {
+    "categoria": "PANES, CEREALES, TUBÉRCULOS Y LEGUMINOSAS FRESCAS",
+    "macros_generales": "140 Kcal, 30 grs hidratos de carbono, 3 grs proteína y 1 grs lípidos",
+    "tipo": "CEREALES Y PASTAS CRUDAS",
+    "alimento": "Quínoa cruda",
+    "gramos": "40",
+    "medida_casera": "4 cucharadas",
+    "nutrientes_destacados": "Mod en fibra (2-3 grs)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0001.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 350,
+      "H de C disp. (g)": 75,
+      "Proteínas (g)": 7.5,
+      "Lípidos totales (g)": 2.5
+    }
+  },
+  {
+    "categoria": "PANES, CEREALES, TUBÉRCULOS Y LEGUMINOSAS FRESCAS",
+    "macros_generales": "140 Kcal, 30 grs hidratos de carbono, 3 grs proteína y 1 grs lípidos",
+    "tipo": "CEREALES Y PASTAS CRUDAS",
+    "alimento": "Cuscús",
+    "gramos": "40",
+    "medida_casera": "¼ taza",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0001.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 350,
+      "H de C disp. (g)": 75,
+      "Proteínas (g)": 7.5,
+      "Lípidos totales (g)": 2.5
+    }
+  },
+  {
+    "categoria": "PANES, CEREALES, TUBÉRCULOS Y LEGUMINOSAS FRESCAS",
+    "macros_generales": "140 Kcal, 30 grs hidratos de carbono, 3 grs proteína y 1 grs lípidos",
+    "tipo": "CEREALES Y PASTAS CRUDAS",
+    "alimento": "Sémola",
+    "gramos": "40",
+    "medida_casera": "3 cucharadas",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0001.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 350,
+      "H de C disp. (g)": 75,
+      "Proteínas (g)": 7.5,
+      "Lípidos totales (g)": 2.5
+    }
+  },
+  {
+    "categoria": "PANES, CEREALES, TUBÉRCULOS Y LEGUMINOSAS FRESCAS",
+    "macros_generales": "140 Kcal, 30 grs hidratos de carbono, 3 grs proteína y 1 grs lípidos",
+    "tipo": "CEREALES Y PASTAS CRUDAS",
+    "alimento": "Tapioca",
+    "gramos": "40",
+    "medida_casera": "4 cucharadas",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0001.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 350,
+      "H de C disp. (g)": 75,
+      "Proteínas (g)": 7.5,
+      "Lípidos totales (g)": 2.5
+    }
+  },
+  {
+    "categoria": "PANES, CEREALES, TUBÉRCULOS Y LEGUMINOSAS FRESCAS",
+    "macros_generales": "140 Kcal, 30 grs hidratos de carbono, 3 grs proteína y 1 grs lípidos",
+    "tipo": "CEREALES Y PASTAS COCIDAS",
+    "alimento": "Cabritas",
+    "gramos": "35",
+    "medida_casera": "1 ½ taza",
+    "nutrientes_destacados": "Alto en fibra (>3 grs)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0001.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 400,
+      "H de C disp. (g)": 85.71428571428571,
+      "Proteínas (g)": 8.571428571428571,
+      "Lípidos totales (g)": 2.857142857142857
+    }
+  },
+  {
+    "categoria": "PANES, CEREALES, TUBÉRCULOS Y LEGUMINOSAS FRESCAS",
+    "macros_generales": "140 Kcal, 30 grs hidratos de carbono, 3 grs proteína y 1 grs lípidos",
+    "tipo": "CEREALES Y PASTAS COCIDAS",
+    "alimento": "Mote maíz",
+    "gramos": "120",
+    "medida_casera": "¾ taza",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0001.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 116.66666666666667,
+      "H de C disp. (g)": 25,
+      "Proteínas (g)": 2.5,
+      "Lípidos totales (g)": 0.8333333333333334
+    }
+  },
+  {
+    "categoria": "PANES, CEREALES, TUBÉRCULOS Y LEGUMINOSAS FRESCAS",
+    "macros_generales": "140 Kcal, 30 grs hidratos de carbono, 3 grs proteína y 1 grs lípidos",
+    "tipo": "CEREALES Y PASTAS COCIDAS",
+    "alimento": "Mote trigo",
+    "gramos": "100",
+    "medida_casera": "¾ taza",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0001.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 140,
+      "H de C disp. (g)": 30,
+      "Proteínas (g)": 3,
+      "Lípidos totales (g)": 1
+    }
+  },
+  {
+    "categoria": "PANES, CEREALES, TUBÉRCULOS Y LEGUMINOSAS FRESCAS",
+    "macros_generales": "140 Kcal, 30 grs hidratos de carbono, 3 grs proteína y 1 grs lípidos",
+    "tipo": "CEREALES Y PASTAS COCIDAS",
+    "alimento": "Arroz integral cocido",
+    "gramos": "120",
+    "medida_casera": "¾ taza",
+    "nutrientes_destacados": "Mod en fibra (2-3 grs)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0001.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 116.66666666666667,
+      "H de C disp. (g)": 25,
+      "Proteínas (g)": 2.5,
+      "Lípidos totales (g)": 0.8333333333333334
+    }
+  },
+  {
+    "categoria": "PANES, CEREALES, TUBÉRCULOS Y LEGUMINOSAS FRESCAS",
+    "macros_generales": "140 Kcal, 30 grs hidratos de carbono, 3 grs proteína y 1 grs lípidos",
+    "tipo": "CEREALES Y PASTAS COCIDAS",
+    "alimento": "Arroz blanco cocido",
+    "gramos": "100",
+    "medida_casera": "¾ taza",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0001.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 140,
+      "H de C disp. (g)": 30,
+      "Proteínas (g)": 3,
+      "Lípidos totales (g)": 1
+    }
+  },
+  {
+    "categoria": "PANES, CEREALES, TUBÉRCULOS Y LEGUMINOSAS FRESCAS",
+    "macros_generales": "140 Kcal, 30 grs hidratos de carbono, 3 grs proteína y 1 grs lípidos",
+    "tipo": "CEREALES Y PASTAS COCIDAS",
+    "alimento": "Pastas cocidas",
+    "gramos": "110",
+    "medida_casera": "¾ taza",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0001.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 127.27272727272727,
+      "H de C disp. (g)": 27.27272727272727,
+      "Proteínas (g)": 2.727272727272727,
+      "Lípidos totales (g)": 0.9090909090909091
+    }
+  },
+  {
+    "categoria": "PANES, CEREALES, TUBÉRCULOS Y LEGUMINOSAS FRESCAS",
+    "macros_generales": "140 Kcal, 30 grs hidratos de carbono, 3 grs proteína y 1 grs lípidos",
+    "tipo": "CEREALES Y PASTAS COCIDAS",
+    "alimento": "Choclo",
+    "gramos": "130",
+    "medida_casera": "¾ taza",
+    "nutrientes_destacados": "Mod en fibra (2-3 grs)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0001.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 107.6923076923077,
+      "H de C disp. (g)": 23.076923076923077,
+      "Proteínas (g)": 2.307692307692308,
+      "Lípidos totales (g)": 0.7692307692307693
+    }
+  },
+  {
+    "categoria": "PANES, CEREALES, TUBÉRCULOS Y LEGUMINOSAS FRESCAS",
+    "macros_generales": "140 Kcal, 30 grs hidratos de carbono, 3 grs proteína y 1 grs lípidos",
+    "tipo": "PAN",
+    "alimento": "Marraqueta",
+    "gramos": "50",
+    "medida_casera": "½ unidad",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0001.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 280,
+      "H de C disp. (g)": 60,
+      "Proteínas (g)": 6,
+      "Lípidos totales (g)": 2
+    }
+  },
+  {
+    "categoria": "PANES, CEREALES, TUBÉRCULOS Y LEGUMINOSAS FRESCAS",
+    "macros_generales": "140 Kcal, 30 grs hidratos de carbono, 3 grs proteína y 1 grs lípidos",
+    "tipo": "PAN",
+    "alimento": "Hallulla",
+    "gramos": "50",
+    "medida_casera": "½ unidad",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0001.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 280,
+      "H de C disp. (g)": 60,
+      "Proteínas (g)": 6,
+      "Lípidos totales (g)": 2
+    }
+  },
+  {
+    "categoria": "PANES, CEREALES, TUBÉRCULOS Y LEGUMINOSAS FRESCAS",
+    "macros_generales": "140 Kcal, 30 grs hidratos de carbono, 3 grs proteína y 1 grs lípidos",
+    "tipo": "PAN",
+    "alimento": "Amasado",
+    "gramos": "35",
+    "medida_casera": "¼ unidad",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0001.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 400,
+      "H de C disp. (g)": 85.71428571428571,
+      "Proteínas (g)": 8.571428571428571,
+      "Lípidos totales (g)": 2.857142857142857
+    }
+  },
+  {
+    "categoria": "PANES, CEREALES, TUBÉRCULOS Y LEGUMINOSAS FRESCAS",
+    "macros_generales": "140 Kcal, 30 grs hidratos de carbono, 3 grs proteína y 1 grs lípidos",
+    "tipo": "PAN",
+    "alimento": "Molde",
+    "gramos": "50",
+    "medida_casera": "2 rebanadas",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0001.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 280,
+      "H de C disp. (g)": 60,
+      "Proteínas (g)": 6,
+      "Lípidos totales (g)": 2
+    }
+  },
+  {
+    "categoria": "PANES, CEREALES, TUBÉRCULOS Y LEGUMINOSAS FRESCAS",
+    "macros_generales": "140 Kcal, 30 grs hidratos de carbono, 3 grs proteína y 1 grs lípidos",
+    "tipo": "PAN",
+    "alimento": "Molde integral",
+    "gramos": "50",
+    "medida_casera": "2 rebanadas",
+    "nutrientes_destacados": "Alto en fibra (>3 grs)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0001.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 280,
+      "H de C disp. (g)": 60,
+      "Proteínas (g)": 6,
+      "Lípidos totales (g)": 2
+    }
+  },
+  {
+    "categoria": "PANES, CEREALES, TUBÉRCULOS Y LEGUMINOSAS FRESCAS",
+    "macros_generales": "140 Kcal, 30 grs hidratos de carbono, 3 grs proteína y 1 grs lípidos",
+    "tipo": "PAN",
+    "alimento": "Pita blanco",
+    "gramos": "60",
+    "medida_casera": "1 ½ unidad",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0001.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 233.33333333333334,
+      "H de C disp. (g)": 50,
+      "Proteínas (g)": 5,
+      "Lípidos totales (g)": 1.6666666666666667
+    }
+  },
+  {
+    "categoria": "PANES, CEREALES, TUBÉRCULOS Y LEGUMINOSAS FRESCAS",
+    "macros_generales": "140 Kcal, 30 grs hidratos de carbono, 3 grs proteína y 1 grs lípidos",
+    "tipo": "PAN",
+    "alimento": "Pita integral",
+    "gramos": "60",
+    "medida_casera": "1 ½ unidad",
+    "nutrientes_destacados": "Alto en fibra (>3 grs)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0001.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 233.33333333333334,
+      "H de C disp. (g)": 50,
+      "Proteínas (g)": 5,
+      "Lípidos totales (g)": 1.6666666666666667
+    }
+  },
+  {
+    "categoria": "PANES, CEREALES, TUBÉRCULOS Y LEGUMINOSAS FRESCAS",
+    "macros_generales": "140 Kcal, 30 grs hidratos de carbono, 3 grs proteína y 1 grs lípidos",
+    "tipo": "PAN",
+    "alimento": "Tortilla para tacos",
+    "gramos": "50",
+    "medida_casera": "1 grande",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0001.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 280,
+      "H de C disp. (g)": 60,
+      "Proteínas (g)": 6,
+      "Lípidos totales (g)": 2
+    }
+  },
+  {
+    "categoria": "PANES, CEREALES, TUBÉRCULOS Y LEGUMINOSAS FRESCAS",
+    "macros_generales": "140 Kcal, 30 grs hidratos de carbono, 3 grs proteína y 1 grs lípidos",
+    "tipo": "PAN",
+    "alimento": "Centeno",
+    "gramos": "50",
+    "medida_casera": "2 rebanadas",
+    "nutrientes_destacados": "Alto en fibra (>3 grs)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0001.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 280,
+      "H de C disp. (g)": 60,
+      "Proteínas (g)": 6,
+      "Lípidos totales (g)": 2
+    }
+  },
+  {
+    "categoria": "PANES, CEREALES, TUBÉRCULOS Y LEGUMINOSAS FRESCAS",
+    "macros_generales": "140 Kcal, 30 grs hidratos de carbono, 3 grs proteína y 1 grs lípidos",
+    "tipo": "GALLETAS",
+    "alimento": "Agua",
+    "gramos": "40",
+    "medida_casera": "7 unidades",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0001.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 350,
+      "H de C disp. (g)": 75,
+      "Proteínas (g)": 7.5,
+      "Lípidos totales (g)": 2.5
+    }
+  },
+  {
+    "categoria": "PANES, CEREALES, TUBÉRCULOS Y LEGUMINOSAS FRESCAS",
+    "macros_generales": "140 Kcal, 30 grs hidratos de carbono, 3 grs proteína y 1 grs lípidos",
+    "tipo": "GALLETAS",
+    "alimento": "Soda",
+    "gramos": "40",
+    "medida_casera": "7 unidades",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0001.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 350,
+      "H de C disp. (g)": 75,
+      "Proteínas (g)": 7.5,
+      "Lípidos totales (g)": 2.5
+    }
+  },
+  {
+    "categoria": "PANES, CEREALES, TUBÉRCULOS Y LEGUMINOSAS FRESCAS",
+    "macros_generales": "140 Kcal, 30 grs hidratos de carbono, 3 grs proteína y 1 grs lípidos",
+    "tipo": "GALLETAS",
+    "alimento": "Chuño",
+    "gramos": "40",
+    "medida_casera": "5 unidades",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0001.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 350,
+      "H de C disp. (g)": 75,
+      "Proteínas (g)": 7.5,
+      "Lípidos totales (g)": 2.5
+    }
+  },
+  {
+    "categoria": "PANES, CEREALES, TUBÉRCULOS Y LEGUMINOSAS FRESCAS",
+    "macros_generales": "140 Kcal, 30 grs hidratos de carbono, 3 grs proteína y 1 grs lípidos",
+    "tipo": "GALLETAS",
+    "alimento": "Arroz (grandes)",
+    "gramos": "35",
+    "medida_casera": "5 unidades",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0001.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 400,
+      "H de C disp. (g)": 85.71428571428571,
+      "Proteínas (g)": 8.571428571428571,
+      "Lípidos totales (g)": 2.857142857142857
+    }
+  },
+  {
+    "categoria": "PANES, CEREALES, TUBÉRCULOS Y LEGUMINOSAS FRESCAS",
+    "macros_generales": "140 Kcal, 30 grs hidratos de carbono, 3 grs proteína y 1 grs lípidos",
+    "tipo": "GALLETAS",
+    "alimento": "Maíz",
+    "gramos": "35",
+    "medida_casera": "5 unidades",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0001.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 400,
+      "H de C disp. (g)": 85.71428571428571,
+      "Proteínas (g)": 8.571428571428571,
+      "Lípidos totales (g)": 2.857142857142857
+    }
+  },
+  {
+    "categoria": "PANES, CEREALES, TUBÉRCULOS Y LEGUMINOSAS FRESCAS",
+    "macros_generales": "140 Kcal, 30 grs hidratos de carbono, 3 grs proteína y 1 grs lípidos",
+    "tipo": "HOJUELAS",
+    "alimento": "Hojuelas azucaradas",
+    "gramos": "40",
+    "medida_casera": "1 taza",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0002.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 350,
+      "H de C disp. (g)": 75,
+      "Proteínas (g)": 7.5,
+      "Lípidos totales (g)": 2.5
+    }
+  },
+  {
+    "categoria": "PANES, CEREALES, TUBÉRCULOS Y LEGUMINOSAS FRESCAS",
+    "macros_generales": "140 Kcal, 30 grs hidratos de carbono, 3 grs proteína y 1 grs lípidos",
+    "tipo": "HOJUELAS",
+    "alimento": "Arroz inflado",
+    "gramos": "70",
+    "medida_casera": "2 tazas",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0002.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 200,
+      "H de C disp. (g)": 42.857142857142854,
+      "Proteínas (g)": 4.285714285714286,
+      "Lípidos totales (g)": 1.4285714285714286
+    }
+  },
+  {
+    "categoria": "PANES, CEREALES, TUBÉRCULOS Y LEGUMINOSAS FRESCAS",
+    "macros_generales": "140 Kcal, 30 grs hidratos de carbono, 3 grs proteína y 1 grs lípidos",
+    "tipo": "HOJUELAS",
+    "alimento": "Hojuelas integrales",
+    "gramos": "40",
+    "medida_casera": "1 taza",
+    "nutrientes_destacados": "Alto en fibra (>3 grs)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0002.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 350,
+      "H de C disp. (g)": 75,
+      "Proteínas (g)": 7.5,
+      "Lípidos totales (g)": 2.5
+    }
+  },
+  {
+    "categoria": "PANES, CEREALES, TUBÉRCULOS Y LEGUMINOSAS FRESCAS",
+    "macros_generales": "140 Kcal, 30 grs hidratos de carbono, 3 grs proteína y 1 grs lípidos",
+    "tipo": "HOJUELAS",
+    "alimento": "Granola",
+    "gramos": "30",
+    "medida_casera": "1/3 taza",
+    "nutrientes_destacados": "Alto en fibra (>3 grs)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0002.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 466.6666666666667,
+      "H de C disp. (g)": 100,
+      "Proteínas (g)": 10,
+      "Lípidos totales (g)": 3.3333333333333335
+    }
+  },
+  {
+    "categoria": "PANES, CEREALES, TUBÉRCULOS Y LEGUMINOSAS FRESCAS",
+    "macros_generales": "140 Kcal, 30 grs hidratos de carbono, 3 grs proteína y 1 grs lípidos",
+    "tipo": "HOJUELAS",
+    "alimento": "Barra de cereal con azúcar",
+    "gramos": "38",
+    "medida_casera": "1 ½ unidad",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0002.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 368.42105263157896,
+      "H de C disp. (g)": 78.94736842105263,
+      "Proteínas (g)": 7.894736842105263,
+      "Lípidos totales (g)": 2.631578947368421
+    }
+  },
+  {
+    "categoria": "PANES, CEREALES, TUBÉRCULOS Y LEGUMINOSAS FRESCAS",
+    "macros_generales": "140 Kcal, 30 grs hidratos de carbono, 3 grs proteína y 1 grs lípidos",
+    "tipo": "HOJUELAS",
+    "alimento": "Barra de cereal sin azúcar",
+    "gramos": "40",
+    "medida_casera": "2 unidades",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0002.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 350,
+      "H de C disp. (g)": 75,
+      "Proteínas (g)": 7.5,
+      "Lípidos totales (g)": 2.5
+    }
+  },
+  {
+    "categoria": "PANES, CEREALES, TUBÉRCULOS Y LEGUMINOSAS FRESCAS",
+    "macros_generales": "140 Kcal, 30 grs hidratos de carbono, 3 grs proteína y 1 grs lípidos",
+    "tipo": "LEGUMINOSAS FRESCAS",
+    "alimento": "Habas",
+    "gramos": "150",
+    "medida_casera": "1 taza",
+    "nutrientes_destacados": "Alto en fibra (>3 grs)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0002.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 93.33333333333333,
+      "H de C disp. (g)": 20,
+      "Proteínas (g)": 2,
+      "Lípidos totales (g)": 0.6666666666666667
+    }
+  },
+  {
+    "categoria": "PANES, CEREALES, TUBÉRCULOS Y LEGUMINOSAS FRESCAS",
+    "macros_generales": "140 Kcal, 30 grs hidratos de carbono, 3 grs proteína y 1 grs lípidos",
+    "tipo": "LEGUMINOSAS FRESCAS",
+    "alimento": "Arvejas",
+    "gramos": "180",
+    "medida_casera": "1 taza",
+    "nutrientes_destacados": "Alto en fibra (>3 grs)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0002.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 77.77777777777779,
+      "H de C disp. (g)": 16.666666666666664,
+      "Proteínas (g)": 1.6666666666666667,
+      "Lípidos totales (g)": 0.5555555555555556
+    }
+  },
+  {
+    "categoria": "PANES, CEREALES, TUBÉRCULOS Y LEGUMINOSAS FRESCAS",
+    "macros_generales": "140 Kcal, 30 grs hidratos de carbono, 3 grs proteína y 1 grs lípidos",
+    "tipo": "LEGUMINOSAS FRESCAS",
+    "alimento": "Porotos granados",
+    "gramos": "120",
+    "medida_casera": "¾ taza",
+    "nutrientes_destacados": "Alto en fibra (>3 grs)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0002.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 116.66666666666667,
+      "H de C disp. (g)": 25,
+      "Proteínas (g)": 2.5,
+      "Lípidos totales (g)": 0.8333333333333334
+    }
+  },
+  {
+    "categoria": "PANES, CEREALES, TUBÉRCULOS Y LEGUMINOSAS FRESCAS",
+    "macros_generales": "140 Kcal, 30 grs hidratos de carbono, 3 grs proteína y 1 grs lípidos",
+    "tipo": "TUBÉRCULOS",
+    "alimento": "Papa",
+    "gramos": "150",
+    "medida_casera": "1 unidad",
+    "nutrientes_destacados": "Mod en fibra (2-3 grs)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0002.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 93.33333333333333,
+      "H de C disp. (g)": 20,
+      "Proteínas (g)": 2,
+      "Lípidos totales (g)": 0.6666666666666667
+    }
+  },
+  {
+    "categoria": "PANES, CEREALES, TUBÉRCULOS Y LEGUMINOSAS FRESCAS",
+    "macros_generales": "140 Kcal, 30 grs hidratos de carbono, 3 grs proteína y 1 grs lípidos",
+    "tipo": "TUBÉRCULOS",
+    "alimento": "Camote",
+    "gramos": "120",
+    "medida_casera": "½ taza",
+    "nutrientes_destacados": "Alto en fibra (>3 grs)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0002.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 116.66666666666667,
+      "H de C disp. (g)": 25,
+      "Proteínas (g)": 2.5,
+      "Lípidos totales (g)": 0.8333333333333334
+    }
+  },
+  {
+    "categoria": "PANES, CEREALES, TUBÉRCULOS Y LEGUMINOSAS FRESCAS",
+    "macros_generales": "140 Kcal, 30 grs hidratos de carbono, 3 grs proteína y 1 grs lípidos",
+    "tipo": "TUBÉRCULOS",
+    "alimento": "Yuca",
+    "gramos": "120",
+    "medida_casera": "½ taza",
+    "nutrientes_destacados": "Mod en fibra (2-3 grs)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0002.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 116.66666666666667,
+      "H de C disp. (g)": 25,
+      "Proteínas (g)": 2.5,
+      "Lípidos totales (g)": 0.8333333333333334
+    }
+  },
+  {
+    "categoria": "PANES, CEREALES, TUBÉRCULOS Y LEGUMINOSAS FRESCAS",
+    "macros_generales": "140 Kcal, 30 grs hidratos de carbono, 3 grs proteína y 1 grs lípidos",
+    "tipo": "TUBÉRCULOS",
+    "alimento": "Topinambur",
+    "gramos": "120",
+    "medida_casera": "½ taza",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0002.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 116.66666666666667,
+      "H de C disp. (g)": 25,
+      "Proteínas (g)": 2.5,
+      "Lípidos totales (g)": 0.8333333333333334
+    }
+  },
+  {
+    "categoria": "VERDURAS DE CONSUMO GENERAL",
+    "macros_generales": "30 Kcal, 5 grs Hidratos de Carbono, 2 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Acelga cocida",
+    "gramos": "110",
+    "medida_casera": "½ taza",
+    "nutrientes_destacados": "Mod en fibra (2-3 grs) Alta en potasio (>350 mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0002.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 27.27272727272727,
+      "H de C disp. (g)": 4.545454545454546,
+      "Proteínas (g)": 1.8181818181818181,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "VERDURAS DE CONSUMO GENERAL",
+    "macros_generales": "30 Kcal, 5 grs Hidratos de Carbono, 2 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Alcachofa cocida",
+    "gramos": "50",
+    "medida_casera": "1 unidad",
+    "nutrientes_destacados": "Mod en fibra (2-3 grs) Baja en potasio (<200 mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0002.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 60,
+      "H de C disp. (g)": 10,
+      "Proteínas (g)": 4,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "VERDURAS DE CONSUMO GENERAL",
+    "macros_generales": "30 Kcal, 5 grs Hidratos de Carbono, 2 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Betarraga cocida",
+    "gramos": "90",
+    "medida_casera": "½ taza",
+    "nutrientes_destacados": "Mod en fibra (2-3 grs) Alta en potasio (>350 mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0002.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 33.33333333333333,
+      "H de C disp. (g)": 5.555555555555555,
+      "Proteínas (g)": 2.2222222222222223,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "VERDURAS DE CONSUMO GENERAL",
+    "macros_generales": "30 Kcal, 5 grs Hidratos de Carbono, 2 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Betarraga cruda",
+    "gramos": "130",
+    "medida_casera": "1 taza",
+    "nutrientes_destacados": "Mod en fibra (2-3 grs) Alta en potasio (>350 mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0002.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 23.076923076923077,
+      "H de C disp. (g)": 3.8461538461538463,
+      "Proteínas (g)": 1.5384615384615385,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "VERDURAS DE CONSUMO GENERAL",
+    "macros_generales": "30 Kcal, 5 grs Hidratos de Carbono, 2 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Berenjena cocida",
+    "gramos": "100",
+    "medida_casera": "½ taza",
+    "nutrientes_destacados": "Mod en fibra (2-3 grs) Moderado en potasio (200 - 350mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0002.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 30,
+      "H de C disp. (g)": 5,
+      "Proteínas (g)": 2,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "VERDURAS DE CONSUMO GENERAL",
+    "macros_generales": "30 Kcal, 5 grs Hidratos de Carbono, 2 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Brócoli cocido",
+    "gramos": "100",
+    "medida_casera": "1 taza",
+    "nutrientes_destacados": "Mod en fibra (2-3 grs) Bajo en potasio (<200 mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0002.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 30,
+      "H de C disp. (g)": 5,
+      "Proteínas (g)": 2,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "VERDURAS DE CONSUMO GENERAL",
+    "macros_generales": "30 Kcal, 5 grs Hidratos de Carbono, 2 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Cebolla cocida",
+    "gramos": "60",
+    "medida_casera": "¾ taza",
+    "nutrientes_destacados": "Bajo en potasio (<200 mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0002.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 50,
+      "H de C disp. (g)": 8.333333333333332,
+      "Proteínas (g)": 3.3333333333333335,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "VERDURAS DE CONSUMO GENERAL",
+    "macros_generales": "30 Kcal, 5 grs Hidratos de Carbono, 2 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Champiñones cocidos",
+    "gramos": "100",
+    "medida_casera": "¾ taza",
+    "nutrientes_destacados": "Mod en fibra (2-3 grs) Alta en potasio (>350 mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0002.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 30,
+      "H de C disp. (g)": 5,
+      "Proteínas (g)": 2,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "VERDURAS DE CONSUMO GENERAL",
+    "macros_generales": "30 Kcal, 5 grs Hidratos de Carbono, 2 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Coliflor",
+    "gramos": "110",
+    "medida_casera": "1 taza",
+    "nutrientes_destacados": "Mod en fibra (2-3 grs) Alta en potasio (>350 mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0002.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 27.27272727272727,
+      "H de C disp. (g)": 4.545454545454546,
+      "Proteínas (g)": 1.8181818181818181,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "VERDURAS DE CONSUMO GENERAL",
+    "macros_generales": "30 Kcal, 5 grs Hidratos de Carbono, 2 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Coles de bruselas",
+    "gramos": "100",
+    "medida_casera": "½ taza",
+    "nutrientes_destacados": "Mod en fibra (2-3 grs) Alta en potasio (>350 mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0002.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 30,
+      "H de C disp. (g)": 5,
+      "Proteínas (g)": 2,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "VERDURAS DE CONSUMO GENERAL",
+    "macros_generales": "30 Kcal, 5 grs Hidratos de Carbono, 2 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Espárragos",
+    "gramos": "100",
+    "medida_casera": "5 unidades",
+    "nutrientes_destacados": "Moderado en potasio (200 - 350mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0002.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 30,
+      "H de C disp. (g)": 5,
+      "Proteínas (g)": 2,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "VERDURAS DE CONSUMO GENERAL",
+    "macros_generales": "30 Kcal, 5 grs Hidratos de Carbono, 2 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Espinaca cocida",
+    "gramos": "130",
+    "medida_casera": "½ taza",
+    "nutrientes_destacados": "Alta en potasio (>350 mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0002.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 23.076923076923077,
+      "H de C disp. (g)": 3.8461538461538463,
+      "Proteínas (g)": 1.5384615384615385,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "VERDURAS DE CONSUMO GENERAL",
+    "macros_generales": "30 Kcal, 5 grs Hidratos de Carbono, 2 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Tomate",
+    "gramos": "120",
+    "medida_casera": "1 unidad",
+    "nutrientes_destacados": "Alta en potasio (>350 mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0002.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 25,
+      "H de C disp. (g)": 4.166666666666666,
+      "Proteínas (g)": 1.6666666666666667,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "VERDURAS DE CONSUMO GENERAL",
+    "macros_generales": "30 Kcal, 5 grs Hidratos de Carbono, 2 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Pepinillos",
+    "gramos": "120",
+    "medida_casera": "3 unidades",
+    "nutrientes_destacados": "Alto en sodio 400 mg o más Bajo en potasio (<200 mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0002.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 25,
+      "H de C disp. (g)": 4.166666666666666,
+      "Proteínas (g)": 1.6666666666666667,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "VERDURAS DE CONSUMO GENERAL",
+    "macros_generales": "30 Kcal, 5 grs Hidratos de Carbono, 2 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Porotos verdes cocidos",
+    "gramos": "70",
+    "medida_casera": "¾ taza",
+    "nutrientes_destacados": "Mod en fibra (2-3 grs) Alta en potasio (>350 mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0002.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 42.857142857142854,
+      "H de C disp. (g)": 7.142857142857142,
+      "Proteínas (g)": 2.857142857142857,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "VERDURAS DE CONSUMO GENERAL",
+    "macros_generales": "30 Kcal, 5 grs Hidratos de Carbono, 2 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Salsa de tomates",
+    "gramos": "30",
+    "medida_casera": "2 cucharadas",
+    "nutrientes_destacados": "Moderado en potasio (200 - 350mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0002.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 100,
+      "H de C disp. (g)": 16.666666666666664,
+      "Proteínas (g)": 6.666666666666667,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "VERDURAS DE CONSUMO GENERAL",
+    "macros_generales": "30 Kcal, 5 grs Hidratos de Carbono, 2 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Zanahoria cruda",
+    "gramos": "50",
+    "medida_casera": "1 taza",
+    "nutrientes_destacados": "Bajo en potasio (<200 mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0002.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 60,
+      "H de C disp. (g)": 10,
+      "Proteínas (g)": 4,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "VERDURAS DE CONSUMO GENERAL",
+    "macros_generales": "30 Kcal, 5 grs Hidratos de Carbono, 2 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Zanahoria cocida",
+    "gramos": "50",
+    "medida_casera": "½ taza",
+    "nutrientes_destacados": "Bajo en potasio (<200 mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0002.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 60,
+      "H de C disp. (g)": 10,
+      "Proteínas (g)": 4,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "VERDURAS DE CONSUMO GENERAL",
+    "macros_generales": "30 Kcal, 5 grs Hidratos de Carbono, 2 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Zapallo italiano cocido",
+    "gramos": "150",
+    "medida_casera": "1 taza",
+    "nutrientes_destacados": "Moderado en potasio (200 - 350mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0002.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 20,
+      "H de C disp. (g)": 3.3333333333333335,
+      "Proteínas (g)": 1.3333333333333335,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "VERDURAS DE CONSUMO GENERAL",
+    "macros_generales": "30 Kcal, 5 grs Hidratos de Carbono, 2 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Zapallo",
+    "gramos": "70",
+    "medida_casera": "½ taza",
+    "nutrientes_destacados": "Moderado en potasio (200 - 350mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0002.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 42.857142857142854,
+      "H de C disp. (g)": 7.142857142857142,
+      "Proteínas (g)": 2.857142857142857,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "VERDURAS DE LIBRE CONSUMO",
+    "macros_generales": "10 Kcal, 2,5 grs Hidratos de Carbono, 0 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Acelga cruda",
+    "gramos": "50",
+    "medida_casera": "1 taza",
+    "nutrientes_destacados": "Moderado en potasio (200 - 350mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0003.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 20,
+      "H de C disp. (g)": 5,
+      "Proteínas (g)": 0,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "VERDURAS DE LIBRE CONSUMO",
+    "macros_generales": "10 Kcal, 2,5 grs Hidratos de Carbono, 0 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Achicoria",
+    "gramos": "50",
+    "medida_casera": "1 taza",
+    "nutrientes_destacados": "Moderado en potasio (200 - 350mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0003.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 20,
+      "H de C disp. (g)": 5,
+      "Proteínas (g)": 0,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "VERDURAS DE LIBRE CONSUMO",
+    "macros_generales": "10 Kcal, 2,5 grs Hidratos de Carbono, 0 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Ajo",
+    "gramos": "8",
+    "medida_casera": "8 dientes",
+    "nutrientes_destacados": "Bajo en potasio (<200 mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0003.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 125,
+      "H de C disp. (g)": 31.25,
+      "Proteínas (g)": 0,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "VERDURAS DE LIBRE CONSUMO",
+    "macros_generales": "10 Kcal, 2,5 grs Hidratos de Carbono, 0 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Albahaca",
+    "gramos": "50",
+    "medida_casera": "2 ½ cucharadas",
+    "nutrientes_destacados": "Moderado en potasio (200 - 350mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0003.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 20,
+      "H de C disp. (g)": 5,
+      "Proteínas (g)": 0,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "VERDURAS DE LIBRE CONSUMO",
+    "macros_generales": "10 Kcal, 2,5 grs Hidratos de Carbono, 0 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Apio",
+    "gramos": "70",
+    "medida_casera": "1 taza",
+    "nutrientes_destacados": "Bajo en potasio (<200 mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0003.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 14.285714285714285,
+      "H de C disp. (g)": 3.571428571428571,
+      "Proteínas (g)": 0,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "VERDURAS DE LIBRE CONSUMO",
+    "macros_generales": "10 Kcal, 2,5 grs Hidratos de Carbono, 0 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Berro",
+    "gramos": "50",
+    "medida_casera": "1 taza",
+    "nutrientes_destacados": "Alta en potasio (>350 mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0003.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 20,
+      "H de C disp. (g)": 5,
+      "Proteínas (g)": 0,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "VERDURAS DE LIBRE CONSUMO",
+    "macros_generales": "10 Kcal, 2,5 grs Hidratos de Carbono, 0 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Cebollín",
+    "gramos": "30",
+    "medida_casera": "½ unidad",
+    "nutrientes_destacados": "Bajo en potasio (<200 mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0003.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 33.33333333333333,
+      "H de C disp. (g)": 8.333333333333332,
+      "Proteínas (g)": 0,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "VERDURAS DE LIBRE CONSUMO",
+    "macros_generales": "10 Kcal, 2,5 grs Hidratos de Carbono, 0 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Cochayuyo",
+    "gramos": "25",
+    "medida_casera": "1 taza",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0003.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 40,
+      "H de C disp. (g)": 10,
+      "Proteínas (g)": 0,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "VERDURAS DE LIBRE CONSUMO",
+    "macros_generales": "10 Kcal, 2,5 grs Hidratos de Carbono, 0 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Endivia",
+    "gramos": "50",
+    "medida_casera": "1 taza",
+    "nutrientes_destacados": "Bajo en potasio (<200 mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0003.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 20,
+      "H de C disp. (g)": 5,
+      "Proteínas (g)": 0,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "VERDURAS DE LIBRE CONSUMO",
+    "macros_generales": "10 Kcal, 2,5 grs Hidratos de Carbono, 0 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Espinaca cruda",
+    "gramos": "50",
+    "medida_casera": "1 taza",
+    "nutrientes_destacados": "Moderado en potasio (200 - 350mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0003.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 20,
+      "H de C disp. (g)": 5,
+      "Proteínas (g)": 0,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "VERDURAS DE LIBRE CONSUMO",
+    "macros_generales": "10 Kcal, 2,5 grs Hidratos de Carbono, 0 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Lechuga",
+    "gramos": "50",
+    "medida_casera": "1 taza",
+    "nutrientes_destacados": "Bajo en potasio (<200 mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0003.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 20,
+      "H de C disp. (g)": 5,
+      "Proteínas (g)": 0,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "VERDURAS DE LIBRE CONSUMO",
+    "macros_generales": "10 Kcal, 2,5 grs Hidratos de Carbono, 0 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Pepino ensalada",
+    "gramos": "100",
+    "medida_casera": "½ unidad",
+    "nutrientes_destacados": "Bajo en potasio (<200 mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0003.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 10,
+      "H de C disp. (g)": 2.5,
+      "Proteínas (g)": 0,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "VERDURAS DE LIBRE CONSUMO",
+    "macros_generales": "10 Kcal, 2,5 grs Hidratos de Carbono, 0 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Pimentón rojo/verde",
+    "gramos": "60",
+    "medida_casera": "½ taza",
+    "nutrientes_destacados": "Mod en fibra (2-3 grs) Bajo en potasio (<200 mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0003.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 16.666666666666664,
+      "H de C disp. (g)": 4.166666666666666,
+      "Proteínas (g)": 0,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "VERDURAS DE LIBRE CONSUMO",
+    "macros_generales": "10 Kcal, 2,5 grs Hidratos de Carbono, 0 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Rabanito",
+    "gramos": "50",
+    "medida_casera": "5 unidades",
+    "nutrientes_destacados": "Bajo en potasio (<200 mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0003.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 20,
+      "H de C disp. (g)": 5,
+      "Proteínas (g)": 0,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "VERDURAS DE LIBRE CONSUMO",
+    "macros_generales": "10 Kcal, 2,5 grs Hidratos de Carbono, 0 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Repollo",
+    "gramos": "50",
+    "medida_casera": "1 taza",
+    "nutrientes_destacados": "Bajo en potasio (<200 mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0003.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 20,
+      "H de C disp. (g)": 5,
+      "Proteínas (g)": 0,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "VERDURAS DE LIBRE CONSUMO",
+    "macros_generales": "10 Kcal, 2,5 grs Hidratos de Carbono, 0 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Rúcula",
+    "gramos": "50",
+    "medida_casera": "1 taza",
+    "nutrientes_destacados": "Bajo en potasio (<200 mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0003.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 20,
+      "H de C disp. (g)": 5,
+      "Proteínas (g)": 0,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "VERDURAS DE LIBRE CONSUMO",
+    "macros_generales": "10 Kcal, 2,5 grs Hidratos de Carbono, 0 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Zapallo italiano crudo",
+    "gramos": "100",
+    "medida_casera": "1 taza",
+    "nutrientes_destacados": "Moderado en potasio (200 - 350mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0003.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 10,
+      "H de C disp. (g)": 2.5,
+      "Proteínas (g)": 0,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "FRUTAS",
+    "macros_generales": "65 Kcal, 15 grs Hidratos de Carbono, 1 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Arándanos",
+    "gramos": "120",
+    "medida_casera": "½ taza",
+    "nutrientes_destacados": "Alto en fibra (>3 grs) Bajo en potasio (<200 mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0003.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 54.166666666666664,
+      "H de C disp. (g)": 12.5,
+      "Proteínas (g)": 0.8333333333333334,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "FRUTAS",
+    "macros_generales": "65 Kcal, 15 grs Hidratos de Carbono, 1 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Caqui",
+    "gramos": "90",
+    "medida_casera": "1 unidad chica",
+    "nutrientes_destacados": "Moderado en potasio (200 - 350mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0003.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 72.22222222222221,
+      "H de C disp. (g)": 16.666666666666664,
+      "Proteínas (g)": 1.1111111111111112,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "FRUTAS",
+    "macros_generales": "65 Kcal, 15 grs Hidratos de Carbono, 1 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Cerezas",
+    "gramos": "90",
+    "medida_casera": "15 unidades",
+    "nutrientes_destacados": "Moderado en potasio (200 - 350mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0003.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 72.22222222222221,
+      "H de C disp. (g)": 16.666666666666664,
+      "Proteínas (g)": 1.1111111111111112,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "FRUTAS",
+    "macros_generales": "65 Kcal, 15 grs Hidratos de Carbono, 1 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Chirimoya",
+    "gramos": "90",
+    "medida_casera": "¼ unidad",
+    "nutrientes_destacados": "Alto en fibra (>3 grs) Moderado en potasio (200 - 350mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0003.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 72.22222222222221,
+      "H de C disp. (g)": 16.666666666666664,
+      "Proteínas (g)": 1.1111111111111112,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "FRUTAS",
+    "macros_generales": "65 Kcal, 15 grs Hidratos de Carbono, 1 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Ciruelas",
+    "gramos": "110",
+    "medida_casera": "3 unidades",
+    "nutrientes_destacados": "Mod en fibra (2-3 grs) Moderado en potasio (200 - 350mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0003.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 59.09090909090909,
+      "H de C disp. (g)": 13.636363636363635,
+      "Proteínas (g)": 0.9090909090909091,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "FRUTAS",
+    "macros_generales": "65 Kcal, 15 grs Hidratos de Carbono, 1 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Ciruelas secas",
+    "gramos": "30",
+    "medida_casera": "3 unidades",
+    "nutrientes_destacados": "Mod en fibra (2-3 grs) Alta en potasio (>350 mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0003.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 216.66666666666666,
+      "H de C disp. (g)": 50,
+      "Proteínas (g)": 3.3333333333333335,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "FRUTAS",
+    "macros_generales": "65 Kcal, 15 grs Hidratos de Carbono, 1 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Damasco",
+    "gramos": "120",
+    "medida_casera": "3 unidades",
+    "nutrientes_destacados": "Mod en fibra (2-3 grs) Moderado en potasio (200 - 350mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0003.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 54.166666666666664,
+      "H de C disp. (g)": 12.5,
+      "Proteínas (g)": 0.8333333333333334,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "FRUTAS",
+    "macros_generales": "65 Kcal, 15 grs Hidratos de Carbono, 1 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Damascos secos",
+    "gramos": "30",
+    "medida_casera": "3 unidades",
+    "nutrientes_destacados": "Mod en fibra (2-3 grs) Alta en potasio (>350 mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0003.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 216.66666666666666,
+      "H de C disp. (g)": 50,
+      "Proteínas (g)": 3.3333333333333335,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "FRUTAS",
+    "macros_generales": "65 Kcal, 15 grs Hidratos de Carbono, 1 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Durazno",
+    "gramos": "130",
+    "medida_casera": "1 unidad regular",
+    "nutrientes_destacados": "Moderado en potasio (200 - 350mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0003.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 50,
+      "H de C disp. (g)": 11.538461538461538,
+      "Proteínas (g)": 0.7692307692307693,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "FRUTAS",
+    "macros_generales": "65 Kcal, 15 grs Hidratos de Carbono, 1 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Frambuesas",
+    "gramos": "130",
+    "medida_casera": "1 taza",
+    "nutrientes_destacados": "Alto en fibra (>3 grs) Bajo en potasio (<200 mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0003.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 50,
+      "H de C disp. (g)": 11.538461538461538,
+      "Proteínas (g)": 0.7692307692307693,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "FRUTAS",
+    "macros_generales": "65 Kcal, 15 grs Hidratos de Carbono, 1 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Frutillas",
+    "gramos": "200",
+    "medida_casera": "1 taza",
+    "nutrientes_destacados": "Mod en fibra (2-3 grs) Bajo en potasio (<200 mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0003.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 32.5,
+      "H de C disp. (g)": 7.5,
+      "Proteínas (g)": 0.5,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "FRUTAS",
+    "macros_generales": "65 Kcal, 15 grs Hidratos de Carbono, 1 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Granada",
+    "gramos": "70",
+    "medida_casera": "1 unidad chica",
+    "nutrientes_destacados": "Alto en fibra (>3 grs) Bajo en potasio (<200 mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0003.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 92.85714285714286,
+      "H de C disp. (g)": 21.428571428571427,
+      "Proteínas (g)": 1.4285714285714286,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "FRUTAS",
+    "macros_generales": "65 Kcal, 15 grs Hidratos de Carbono, 1 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Grosella",
+    "gramos": "120",
+    "medida_casera": "½ taza",
+    "nutrientes_destacados": "Alto en fibra (>3 grs) Bajo en potasio (<200 mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0003.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 54.166666666666664,
+      "H de C disp. (g)": 12.5,
+      "Proteínas (g)": 0.8333333333333334,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "FRUTAS",
+    "macros_generales": "65 Kcal, 15 grs Hidratos de Carbono, 1 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Guayaba",
+    "gramos": "100",
+    "medida_casera": "1 unidad mediana",
+    "nutrientes_destacados": "Alto en fibra (>3 grs) Moderado en potasio (200 - 350mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0003.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 65,
+      "H de C disp. (g)": 15,
+      "Proteínas (g)": 1,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "FRUTAS",
+    "macros_generales": "65 Kcal, 15 grs Hidratos de Carbono, 1 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Higos frescos",
+    "gramos": "80",
+    "medida_casera": "2 unidades",
+    "nutrientes_destacados": "Mod en fibra (2-3 grs) Alta en potasio (>350 mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0003.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 81.25,
+      "H de C disp. (g)": 18.75,
+      "Proteínas (g)": 1.25,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "FRUTAS",
+    "macros_generales": "65 Kcal, 15 grs Hidratos de Carbono, 1 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Higos secos",
+    "gramos": "25",
+    "medida_casera": "2 unidades",
+    "nutrientes_destacados": "Mod en fibra (2-3 grs) Alta en potasio (>350 mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0004.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 260,
+      "H de C disp. (g)": 60,
+      "Proteínas (g)": 4,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "FRUTAS",
+    "macros_generales": "65 Kcal, 15 grs Hidratos de Carbono, 1 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Huesillo",
+    "gramos": "30",
+    "medida_casera": "1 unidad",
+    "nutrientes_destacados": "Mod en fibra (2-3 grs) Alta en potasio (>350 mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0004.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 216.66666666666666,
+      "H de C disp. (g)": 50,
+      "Proteínas (g)": 3.3333333333333335,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "FRUTAS",
+    "macros_generales": "65 Kcal, 15 grs Hidratos de Carbono, 1 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Kiwi",
+    "gramos": "100",
+    "medida_casera": "2 unidades chicas",
+    "nutrientes_destacados": "Mod en fibra (2-3 grs) Moderado en potasio (200 - 350mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0004.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 65,
+      "H de C disp. (g)": 15,
+      "Proteínas (g)": 1,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "FRUTAS",
+    "macros_generales": "65 Kcal, 15 grs Hidratos de Carbono, 1 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Lúcuma (pasta)",
+    "gramos": "50",
+    "medida_casera": "2 cucharadas",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0004.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 130,
+      "H de C disp. (g)": 30,
+      "Proteínas (g)": 2,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "FRUTAS",
+    "macros_generales": "65 Kcal, 15 grs Hidratos de Carbono, 1 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Manzana",
+    "gramos": "100",
+    "medida_casera": "1 unidad chica",
+    "nutrientes_destacados": "Mod en fibra (2-3 grs) Bajo en potasio (<200 mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0004.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 65,
+      "H de C disp. (g)": 15,
+      "Proteínas (g)": 1,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "FRUTAS",
+    "macros_generales": "65 Kcal, 15 grs Hidratos de Carbono, 1 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Mandarina",
+    "gramos": "180",
+    "medida_casera": "2 unidades chicas",
+    "nutrientes_destacados": "Bajo en potasio (<200 mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0004.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 36.11111111111111,
+      "H de C disp. (g)": 8.333333333333332,
+      "Proteínas (g)": 0.5555555555555556,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "FRUTAS",
+    "macros_generales": "65 Kcal, 15 grs Hidratos de Carbono, 1 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Mango",
+    "gramos": "90",
+    "medida_casera": "½ taza",
+    "nutrientes_destacados": "Alto en fibra (>3 grs) Moderado en potasio (200 - 350mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0004.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 72.22222222222221,
+      "H de C disp. (g)": 16.666666666666664,
+      "Proteínas (g)": 1.1111111111111112,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "FRUTAS",
+    "macros_generales": "65 Kcal, 15 grs Hidratos de Carbono, 1 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Melón",
+    "gramos": "180",
+    "medida_casera": "1 taza",
+    "nutrientes_destacados": "Alta en potasio (>350 mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0004.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 36.11111111111111,
+      "H de C disp. (g)": 8.333333333333332,
+      "Proteínas (g)": 0.5555555555555556,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "FRUTAS",
+    "macros_generales": "65 Kcal, 15 grs Hidratos de Carbono, 1 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Membrillo",
+    "gramos": "100",
+    "medida_casera": "1 unidad chica",
+    "nutrientes_destacados": "Mod en fibra (2-3 grs) Moderado en potasio (200 - 350mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0004.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 65,
+      "H de C disp. (g)": 15,
+      "Proteínas (g)": 1,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "FRUTAS",
+    "macros_generales": "65 Kcal, 15 grs Hidratos de Carbono, 1 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Mora",
+    "gramos": "120",
+    "medida_casera": "½ taza",
+    "nutrientes_destacados": "Alto en fibra (>3 grs) Bajo en potasio (<200 mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0004.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 54.166666666666664,
+      "H de C disp. (g)": 12.5,
+      "Proteínas (g)": 0.8333333333333334,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "FRUTAS",
+    "macros_generales": "65 Kcal, 15 grs Hidratos de Carbono, 1 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Naranja",
+    "gramos": "120",
+    "medida_casera": "1 unidad regular",
+    "nutrientes_destacados": "Mod en fibra (2-3 grs) Moderado en potasio (200 - 350mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0004.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 54.166666666666664,
+      "H de C disp. (g)": 12.5,
+      "Proteínas (g)": 0.8333333333333334,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "FRUTAS",
+    "macros_generales": "65 Kcal, 15 grs Hidratos de Carbono, 1 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Níspero",
+    "gramos": "120",
+    "medida_casera": "7 unidades",
+    "nutrientes_destacados": "Alto en fibra (>3 grs) Moderado en potasio (200 - 350mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0004.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 54.166666666666664,
+      "H de C disp. (g)": 12.5,
+      "Proteínas (g)": 0.8333333333333334,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "FRUTAS",
+    "macros_generales": "65 Kcal, 15 grs Hidratos de Carbono, 1 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Papaya",
+    "gramos": "400",
+    "medida_casera": "3 unidades",
+    "nutrientes_destacados": "Mod en fibra (2-3 grs) Moderado en potasio (200 - 350mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0004.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 16.25,
+      "H de C disp. (g)": 3.75,
+      "Proteínas (g)": 0.25,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "FRUTAS",
+    "macros_generales": "65 Kcal, 15 grs Hidratos de Carbono, 1 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Pasas",
+    "gramos": "20",
+    "medida_casera": "20 unidades",
+    "nutrientes_destacados": "Alta en potasio (>350 mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0004.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 325,
+      "H de C disp. (g)": 75,
+      "Proteínas (g)": 5,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "FRUTAS",
+    "macros_generales": "65 Kcal, 15 grs Hidratos de Carbono, 1 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Pepino dulce",
+    "gramos": "240",
+    "medida_casera": "1 unidad grande",
+    "nutrientes_destacados": "Bajo en potasio (<200 mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0004.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 27.083333333333332,
+      "H de C disp. (g)": 6.25,
+      "Proteínas (g)": 0.4166666666666667,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "FRUTAS",
+    "macros_generales": "65 Kcal, 15 grs Hidratos de Carbono, 1 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Pera",
+    "gramos": "100",
+    "medida_casera": "1 unidad chica",
+    "nutrientes_destacados": "Alto en fibra (>3 grs) Bajo en potasio (<200 mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0004.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 65,
+      "H de C disp. (g)": 15,
+      "Proteínas (g)": 1,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "FRUTAS",
+    "macros_generales": "65 Kcal, 15 grs Hidratos de Carbono, 1 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Piña",
+    "gramos": "120",
+    "medida_casera": "¾ taza",
+    "nutrientes_destacados": "Bajo en potasio (<200 mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0004.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 54.166666666666664,
+      "H de C disp. (g)": 12.5,
+      "Proteínas (g)": 0.8333333333333334,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "FRUTAS",
+    "macros_generales": "65 Kcal, 15 grs Hidratos de Carbono, 1 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Plátano",
+    "gramos": "60",
+    "medida_casera": "½ unidad",
+    "nutrientes_destacados": "Alta en potasio (>350 mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0004.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 108.33333333333333,
+      "H de C disp. (g)": 25,
+      "Proteínas (g)": 1.6666666666666667,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "FRUTAS",
+    "macros_generales": "65 Kcal, 15 grs Hidratos de Carbono, 1 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Pomelo",
+    "gramos": "200",
+    "medida_casera": "1 unidad chica",
+    "nutrientes_destacados": "Mod en fibra (2-3 grs) Moderado en potasio (200 - 350mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0004.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 32.5,
+      "H de C disp. (g)": 7.5,
+      "Proteínas (g)": 0.5,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "FRUTAS",
+    "macros_generales": "65 Kcal, 15 grs Hidratos de Carbono, 1 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Sandia",
+    "gramos": "200",
+    "medida_casera": "1 taza",
+    "nutrientes_destacados": "Moderado en potasio (200 - 350mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0004.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 32.5,
+      "H de C disp. (g)": 7.5,
+      "Proteínas (g)": 0.5,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "FRUTAS",
+    "macros_generales": "65 Kcal, 15 grs Hidratos de Carbono, 1 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Tuna",
+    "gramos": "150",
+    "medida_casera": "2 unidades regulares",
+    "nutrientes_destacados": "Alto en fibra (>3 grs) Moderado en potasio (200 - 350mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0004.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 43.333333333333336,
+      "H de C disp. (g)": 10,
+      "Proteínas (g)": 0.6666666666666667,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "FRUTAS",
+    "macros_generales": "65 Kcal, 15 grs Hidratos de Carbono, 1 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Uvas",
+    "gramos": "90",
+    "medida_casera": "10 unidades",
+    "nutrientes_destacados": "Alto en fibra (>3 grs) Alta en potasio (>350 mg)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0004.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 72.22222222222221,
+      "H de C disp. (g)": 16.666666666666664,
+      "Proteínas (g)": 1.1111111111111112,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "CARNES BAJAS EN GRASA",
+    "macros_generales": "65 Kcal, 1 grs Hidratos de Carbono, 11 grs proteína y 2 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Vacuno (abastero, asiento picana, filete, lomo liso, pollo ganso, posta negra, posta rosada, punta paleta, entraña)",
+    "gramos": "50",
+    "medida_casera": "1 trozo 6x6x1",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0004.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 130,
+      "H de C disp. (g)": 2,
+      "Proteínas (g)": 22,
+      "Lípidos totales (g)": 4
+    }
+  },
+  {
+    "categoria": "CARNES BAJAS EN GRASA",
+    "macros_generales": "65 Kcal, 1 grs Hidratos de Carbono, 11 grs proteína y 2 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Pollo",
+    "gramos": "50",
+    "medida_casera": "1 trozo 6x6x1",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0004.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 130,
+      "H de C disp. (g)": 2,
+      "Proteínas (g)": 22,
+      "Lípidos totales (g)": 4
+    }
+  },
+  {
+    "categoria": "CARNES BAJAS EN GRASA",
+    "macros_generales": "65 Kcal, 1 grs Hidratos de Carbono, 11 grs proteína y 2 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Pavo",
+    "gramos": "50",
+    "medida_casera": "1 trozo 6x6x1",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0004.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 130,
+      "H de C disp. (g)": 2,
+      "Proteínas (g)": 22,
+      "Lípidos totales (g)": 4
+    }
+  },
+  {
+    "categoria": "CARNES BAJAS EN GRASA",
+    "macros_generales": "65 Kcal, 1 grs Hidratos de Carbono, 11 grs proteína y 2 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Pechuga de pavo",
+    "gramos": "60",
+    "medida_casera": "3 rebanadas",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0004.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 108.33333333333333,
+      "H de C disp. (g)": 1.6666666666666667,
+      "Proteínas (g)": 18.333333333333332,
+      "Lípidos totales (g)": 3.3333333333333335
+    }
+  },
+  {
+    "categoria": "CARNES BAJAS EN GRASA",
+    "macros_generales": "65 Kcal, 1 grs Hidratos de Carbono, 11 grs proteína y 2 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Filete y pulpa de cerdo",
+    "gramos": "50",
+    "medida_casera": "1 trozo 6x6x1",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0004.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 130,
+      "H de C disp. (g)": 2,
+      "Proteínas (g)": 22,
+      "Lípidos totales (g)": 4
+    }
+  },
+  {
+    "categoria": "CARNES BAJAS EN GRASA",
+    "macros_generales": "65 Kcal, 1 grs Hidratos de Carbono, 11 grs proteína y 2 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Pescados (Reineta, congrio, corvina, jurel, lenguado, merluza, pejegallo, pejerrey, tilapia, roncador)",
+    "gramos": "80",
+    "medida_casera": "1 trozo de 10x6x1",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0005.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 81.25,
+      "H de C disp. (g)": 1.25,
+      "Proteínas (g)": 13.750000000000002,
+      "Lípidos totales (g)": 2.5
+    }
+  },
+  {
+    "categoria": "CARNES BAJAS EN GRASA",
+    "macros_generales": "65 Kcal, 1 grs Hidratos de Carbono, 11 grs proteína y 2 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Conejo",
+    "gramos": "60",
+    "medida_casera": "1 trozo 6x6x1",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0005.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 108.33333333333333,
+      "H de C disp. (g)": 1.6666666666666667,
+      "Proteínas (g)": 18.333333333333332,
+      "Lípidos totales (g)": 3.3333333333333335
+    }
+  },
+  {
+    "categoria": "CARNES BAJAS EN GRASA",
+    "macros_generales": "65 Kcal, 1 grs Hidratos de Carbono, 11 grs proteína y 2 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Atún y jurel al agua",
+    "gramos": "60",
+    "medida_casera": "1/3 taza",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0005.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 108.33333333333333,
+      "H de C disp. (g)": 1.6666666666666667,
+      "Proteínas (g)": 18.333333333333332,
+      "Lípidos totales (g)": 3.3333333333333335
+    }
+  },
+  {
+    "categoria": "CARNES BAJAS EN GRASA",
+    "macros_generales": "65 Kcal, 1 grs Hidratos de Carbono, 11 grs proteína y 2 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Camarón",
+    "gramos": "120",
+    "medida_casera": "20 unidades",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0005.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 54.166666666666664,
+      "H de C disp. (g)": 0.8333333333333334,
+      "Proteínas (g)": 9.166666666666666,
+      "Lípidos totales (g)": 1.6666666666666667
+    }
+  },
+  {
+    "categoria": "CARNES BAJAS EN GRASA",
+    "macros_generales": "65 Kcal, 1 grs Hidratos de Carbono, 11 grs proteína y 2 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Cholga",
+    "gramos": "80",
+    "medida_casera": "8 unidades",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0005.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 81.25,
+      "H de C disp. (g)": 1.25,
+      "Proteínas (g)": 13.750000000000002,
+      "Lípidos totales (g)": 2.5
+    }
+  },
+  {
+    "categoria": "CARNES BAJAS EN GRASA",
+    "macros_generales": "65 Kcal, 1 grs Hidratos de Carbono, 11 grs proteína y 2 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Choritos",
+    "gramos": "60",
+    "medida_casera": "8 unidades",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0005.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 108.33333333333333,
+      "H de C disp. (g)": 1.6666666666666667,
+      "Proteínas (g)": 18.333333333333332,
+      "Lípidos totales (g)": 3.3333333333333335
+    }
+  },
+  {
+    "categoria": "CARNES BAJAS EN GRASA",
+    "macros_generales": "65 Kcal, 1 grs Hidratos de Carbono, 11 grs proteína y 2 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Jaiba",
+    "gramos": "60",
+    "medida_casera": "3 cucharadas",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0005.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 108.33333333333333,
+      "H de C disp. (g)": 1.6666666666666667,
+      "Proteínas (g)": 18.333333333333332,
+      "Lípidos totales (g)": 3.3333333333333335
+    }
+  },
+  {
+    "categoria": "CARNES BAJAS EN GRASA",
+    "macros_generales": "65 Kcal, 1 grs Hidratos de Carbono, 11 grs proteína y 2 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Navajuela",
+    "gramos": "70",
+    "medida_casera": "7 unidades",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0005.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 92.85714285714286,
+      "H de C disp. (g)": 1.4285714285714286,
+      "Proteínas (g)": 15.714285714285714,
+      "Lípidos totales (g)": 2.857142857142857
+    }
+  },
+  {
+    "categoria": "CARNES BAJAS EN GRASA",
+    "macros_generales": "65 Kcal, 1 grs Hidratos de Carbono, 11 grs proteína y 2 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Ostras",
+    "gramos": "60",
+    "medida_casera": "6 unidades",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0005.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 108.33333333333333,
+      "H de C disp. (g)": 1.6666666666666667,
+      "Proteínas (g)": 18.333333333333332,
+      "Lípidos totales (g)": 3.3333333333333335
+    }
+  },
+  {
+    "categoria": "CARNES BAJAS EN GRASA",
+    "macros_generales": "65 Kcal, 1 grs Hidratos de Carbono, 11 grs proteína y 2 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Almejas",
+    "gramos": "70",
+    "medida_casera": "7 unidades",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0005.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 92.85714285714286,
+      "H de C disp. (g)": 1.4285714285714286,
+      "Proteínas (g)": 15.714285714285714,
+      "Lípidos totales (g)": 2.857142857142857
+    }
+  },
+  {
+    "categoria": "CARNES BAJAS EN GRASA",
+    "macros_generales": "65 Kcal, 1 grs Hidratos de Carbono, 11 grs proteína y 2 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Piures",
+    "gramos": "120",
+    "medida_casera": "12 unidades",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0005.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 54.166666666666664,
+      "H de C disp. (g)": 0.8333333333333334,
+      "Proteínas (g)": 9.166666666666666,
+      "Lípidos totales (g)": 1.6666666666666667
+    }
+  },
+  {
+    "categoria": "CARNES BAJAS EN GRASA",
+    "macros_generales": "65 Kcal, 1 grs Hidratos de Carbono, 11 grs proteína y 2 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Machas",
+    "gramos": "50",
+    "medida_casera": "5 unidades",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0005.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 130,
+      "H de C disp. (g)": 2,
+      "Proteínas (g)": 22,
+      "Lípidos totales (g)": 4
+    }
+  },
+  {
+    "categoria": "CARNES BAJAS EN GRASA",
+    "macros_generales": "65 Kcal, 1 grs Hidratos de Carbono, 11 grs proteína y 2 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Locos",
+    "gramos": "60",
+    "medida_casera": "1 unidad",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0005.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 108.33333333333333,
+      "H de C disp. (g)": 1.6666666666666667,
+      "Proteínas (g)": 18.333333333333332,
+      "Lípidos totales (g)": 3.3333333333333335
+    }
+  },
+  {
+    "categoria": "CARNES BAJAS EN GRASA",
+    "macros_generales": "65 Kcal, 1 grs Hidratos de Carbono, 11 grs proteína y 2 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Gambas",
+    "gramos": "75",
+    "medida_casera": "15 unidades",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0005.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 86.66666666666667,
+      "H de C disp. (g)": 1.3333333333333335,
+      "Proteínas (g)": 14.666666666666666,
+      "Lípidos totales (g)": 2.666666666666667
+    }
+  },
+  {
+    "categoria": "CARNES BAJAS EN GRASA",
+    "macros_generales": "65 Kcal, 1 grs Hidratos de Carbono, 11 grs proteína y 2 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Guatitas",
+    "gramos": "60",
+    "medida_casera": "¾ taza",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0005.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 108.33333333333333,
+      "H de C disp. (g)": 1.6666666666666667,
+      "Proteínas (g)": 18.333333333333332,
+      "Lípidos totales (g)": 3.3333333333333335
+    }
+  },
+  {
+    "categoria": "CARNES BAJAS EN GRASA",
+    "macros_generales": "65 Kcal, 1 grs Hidratos de Carbono, 11 grs proteína y 2 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Criadillas",
+    "gramos": "100",
+    "medida_casera": "2 unidades",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0005.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 65,
+      "H de C disp. (g)": 1,
+      "Proteínas (g)": 11,
+      "Lípidos totales (g)": 2
+    }
+  },
+  {
+    "categoria": "CARNES BAJAS EN GRASA",
+    "macros_generales": "65 Kcal, 1 grs Hidratos de Carbono, 11 grs proteína y 2 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Riñón cocido",
+    "gramos": "50",
+    "medida_casera": "2 lóbulos",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0005.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 130,
+      "H de C disp. (g)": 2,
+      "Proteínas (g)": 22,
+      "Lípidos totales (g)": 4
+    }
+  },
+  {
+    "categoria": "CARNES BAJAS EN GRASA",
+    "macros_generales": "65 Kcal, 1 grs Hidratos de Carbono, 11 grs proteína y 2 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Corazón",
+    "gramos": "50",
+    "medida_casera": "1 trozo 6x6x1",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0005.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 130,
+      "H de C disp. (g)": 2,
+      "Proteínas (g)": 22,
+      "Lípidos totales (g)": 4
+    }
+  },
+  {
+    "categoria": "CARNES BAJAS EN GRASA",
+    "macros_generales": "65 Kcal, 1 grs Hidratos de Carbono, 11 grs proteína y 2 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Contre de pollo cocido",
+    "gramos": "50",
+    "medida_casera": "2 ½ unidad",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0005.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 130,
+      "H de C disp. (g)": 2,
+      "Proteínas (g)": 22,
+      "Lípidos totales (g)": 4
+    }
+  },
+  {
+    "categoria": "CARNES BAJAS EN GRASA",
+    "macros_generales": "65 Kcal, 1 grs Hidratos de Carbono, 11 grs proteína y 2 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Huevo entero",
+    "gramos": "50",
+    "medida_casera": "1 unidad",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0005.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 130,
+      "H de C disp. (g)": 2,
+      "Proteínas (g)": 22,
+      "Lípidos totales (g)": 4
+    }
+  },
+  {
+    "categoria": "CARNES BAJAS EN GRASA",
+    "macros_generales": "65 Kcal, 1 grs Hidratos de Carbono, 11 grs proteína y 2 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Huevos clara",
+    "gramos": "100",
+    "medida_casera": "3 unidades",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0005.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 65,
+      "H de C disp. (g)": 1,
+      "Proteínas (g)": 11,
+      "Lípidos totales (g)": 2
+    }
+  },
+  {
+    "categoria": "CARNES BAJAS EN GRASA",
+    "macros_generales": "65 Kcal, 1 grs Hidratos de Carbono, 11 grs proteína y 2 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Huevos de codorniz",
+    "gramos": "25",
+    "medida_casera": "2 unidades",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0005.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 260,
+      "H de C disp. (g)": 4,
+      "Proteínas (g)": 44,
+      "Lípidos totales (g)": 8
+    }
+  },
+  {
+    "categoria": "CARNES BAJAS EN GRASA",
+    "macros_generales": "65 Kcal, 1 grs Hidratos de Carbono, 11 grs proteína y 2 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Proteína vegetal de soya texturizada",
+    "gramos": "25",
+    "medida_casera": "2,5 cucharadas",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0005.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 260,
+      "H de C disp. (g)": 4,
+      "Proteínas (g)": 44,
+      "Lípidos totales (g)": 8
+    }
+  },
+  {
+    "categoria": "CARNES ALTAS EN GRASA",
+    "macros_generales": "120 Kcal, 1 grs Hidratos de Carbono, 11 grs proteína y 8 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Vacuno (osobuco, guachalomo, lomo vetado, plateada, asado de tira, tapapecho, asado carnicero, sobrecostilla)",
+    "gramos": "50",
+    "medida_casera": "1 trozo 6x6x1",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0005.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 240,
+      "H de C disp. (g)": 2,
+      "Proteínas (g)": 22,
+      "Lípidos totales (g)": 16
+    }
+  },
+  {
+    "categoria": "CARNES ALTAS EN GRASA",
+    "macros_generales": "120 Kcal, 1 grs Hidratos de Carbono, 11 grs proteína y 8 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Cerdo (chuleta y cazuela)",
+    "gramos": "50",
+    "medida_casera": "1 trozo 6x6x1",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0005.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 240,
+      "H de C disp. (g)": 2,
+      "Proteínas (g)": 22,
+      "Lípidos totales (g)": 16
+    }
+  },
+  {
+    "categoria": "CARNES ALTAS EN GRASA",
+    "macros_generales": "120 Kcal, 1 grs Hidratos de Carbono, 11 grs proteína y 8 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Cordero (chuleta y cazuela)",
+    "gramos": "50",
+    "medida_casera": "1 trozo 6x6x1",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0005.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 240,
+      "H de C disp. (g)": 2,
+      "Proteínas (g)": 22,
+      "Lípidos totales (g)": 16
+    }
+  },
+  {
+    "categoria": "CARNES ALTAS EN GRASA",
+    "macros_generales": "120 Kcal, 1 grs Hidratos de Carbono, 11 grs proteína y 8 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Enlatados (Atún, jurel, sardinas en aceite)",
+    "gramos": "50",
+    "medida_casera": "1/3 taza",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0005.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 240,
+      "H de C disp. (g)": 2,
+      "Proteínas (g)": 22,
+      "Lípidos totales (g)": 16
+    }
+  },
+  {
+    "categoria": "CARNES ALTAS EN GRASA",
+    "macros_generales": "120 Kcal, 1 grs Hidratos de Carbono, 11 grs proteína y 8 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Pescados (Salmón, cojinova, trucha, jurel, mero, sierra)",
+    "gramos": "80",
+    "medida_casera": "1 trozo 10x6x1",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0006.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 150,
+      "H de C disp. (g)": 1.25,
+      "Proteínas (g)": 13.750000000000002,
+      "Lípidos totales (g)": 10
+    }
+  },
+  {
+    "categoria": "CARNES ALTAS EN GRASA",
+    "macros_generales": "120 Kcal, 1 grs Hidratos de Carbono, 11 grs proteína y 8 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Erizos",
+    "gramos": "60",
+    "medida_casera": "6 lenguas",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0006.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 200,
+      "H de C disp. (g)": 1.6666666666666667,
+      "Proteínas (g)": 18.333333333333332,
+      "Lípidos totales (g)": 13.333333333333334
+    }
+  },
+  {
+    "categoria": "CARNES ALTAS EN GRASA",
+    "macros_generales": "120 Kcal, 1 grs Hidratos de Carbono, 11 grs proteína y 8 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Cholgas en aceite",
+    "gramos": "60",
+    "medida_casera": "6 unidades",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0006.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 200,
+      "H de C disp. (g)": 1.6666666666666667,
+      "Proteínas (g)": 18.333333333333332,
+      "Lípidos totales (g)": 13.333333333333334
+    }
+  },
+  {
+    "categoria": "CARNES ALTAS EN GRASA",
+    "macros_generales": "120 Kcal, 1 grs Hidratos de Carbono, 11 grs proteína y 8 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Choritos en aceite",
+    "gramos": "60",
+    "medida_casera": "9 unidades",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0006.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 200,
+      "H de C disp. (g)": 1.6666666666666667,
+      "Proteínas (g)": 18.333333333333332,
+      "Lípidos totales (g)": 13.333333333333334
+    }
+  },
+  {
+    "categoria": "CARNES ALTAS EN GRASA",
+    "macros_generales": "120 Kcal, 1 grs Hidratos de Carbono, 11 grs proteína y 8 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Hígado de vacuno cocido",
+    "gramos": "80",
+    "medida_casera": "1 trozo 6x6x3",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0006.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 150,
+      "H de C disp. (g)": 1.25,
+      "Proteínas (g)": 13.750000000000002,
+      "Lípidos totales (g)": 10
+    }
+  },
+  {
+    "categoria": "CARNES ALTAS EN GRASA",
+    "macros_generales": "120 Kcal, 1 grs Hidratos de Carbono, 11 grs proteína y 8 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Hígado de cordero cocido",
+    "gramos": "60",
+    "medida_casera": "1 trozo 6x6x2",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0006.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 200,
+      "H de C disp. (g)": 1.6666666666666667,
+      "Proteínas (g)": 18.333333333333332,
+      "Lípidos totales (g)": 13.333333333333334
+    }
+  },
+  {
+    "categoria": "CARNES ALTAS EN GRASA",
+    "macros_generales": "120 Kcal, 1 grs Hidratos de Carbono, 11 grs proteína y 8 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Ubre",
+    "gramos": "60",
+    "medida_casera": "1 trozo 6x6x1",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0006.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 200,
+      "H de C disp. (g)": 1.6666666666666667,
+      "Proteínas (g)": 18.333333333333332,
+      "Lípidos totales (g)": 13.333333333333334
+    }
+  },
+  {
+    "categoria": "CARNES ALTAS EN GRASA",
+    "macros_generales": "120 Kcal, 1 grs Hidratos de Carbono, 11 grs proteína y 8 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Lengua cocida",
+    "gramos": "60",
+    "medida_casera": "1 trozo 6x6x1",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0006.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 200,
+      "H de C disp. (g)": 1.6666666666666667,
+      "Proteínas (g)": 18.333333333333332,
+      "Lípidos totales (g)": 13.333333333333334
+    }
+  },
+  {
+    "categoria": "CARNES ALTAS EN GRASA",
+    "macros_generales": "120 Kcal, 1 grs Hidratos de Carbono, 11 grs proteína y 8 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Seso cocido",
+    "gramos": "80",
+    "medida_casera": "2 unidades",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0006.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 150,
+      "H de C disp. (g)": 1.25,
+      "Proteínas (g)": 13.750000000000002,
+      "Lípidos totales (g)": 10
+    }
+  },
+  {
+    "categoria": "CARNES ALTAS EN GRASA",
+    "macros_generales": "120 Kcal, 1 grs Hidratos de Carbono, 11 grs proteína y 8 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Hígado de pollo",
+    "gramos": "80",
+    "medida_casera": "2 unidades",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0006.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 150,
+      "H de C disp. (g)": 1.25,
+      "Proteínas (g)": 13.750000000000002,
+      "Lípidos totales (g)": 10
+    }
+  },
+  {
+    "categoria": "CARNES ALTAS EN GRASA",
+    "macros_generales": "120 Kcal, 1 grs Hidratos de Carbono, 11 grs proteína y 8 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Vienesas",
+    "gramos": "50",
+    "medida_casera": "1 unidad",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0006.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 240,
+      "H de C disp. (g)": 2,
+      "Proteínas (g)": 22,
+      "Lípidos totales (g)": 16
+    }
+  },
+  {
+    "categoria": "CARNES ALTAS EN GRASA",
+    "macros_generales": "120 Kcal, 1 grs Hidratos de Carbono, 11 grs proteína y 8 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Salchicha de pavo",
+    "gramos": "50",
+    "medida_casera": "1 unidad",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0006.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 240,
+      "H de C disp. (g)": 2,
+      "Proteínas (g)": 22,
+      "Lípidos totales (g)": 16
+    }
+  },
+  {
+    "categoria": "CARNES ALTAS EN GRASA",
+    "macros_generales": "120 Kcal, 1 grs Hidratos de Carbono, 11 grs proteína y 8 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Salchicha de cerdo",
+    "gramos": "50",
+    "medida_casera": "1 unidad",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0006.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 240,
+      "H de C disp. (g)": 2,
+      "Proteínas (g)": 22,
+      "Lípidos totales (g)": 16
+    }
+  },
+  {
+    "categoria": "CARNES ALTAS EN GRASA",
+    "macros_generales": "120 Kcal, 1 grs Hidratos de Carbono, 11 grs proteína y 8 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Longaniza",
+    "gramos": "24",
+    "medida_casera": "1 rodela de 25 cm",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0006.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 500,
+      "H de C disp. (g)": 4.166666666666666,
+      "Proteínas (g)": 45.83333333333333,
+      "Lípidos totales (g)": 33.33333333333333
+    }
+  },
+  {
+    "categoria": "CARNES ALTAS EN GRASA",
+    "macros_generales": "120 Kcal, 1 grs Hidratos de Carbono, 11 grs proteína y 8 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Mortadela",
+    "gramos": "40",
+    "medida_casera": "4 rebanadas",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0006.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 300,
+      "H de C disp. (g)": 2.5,
+      "Proteínas (g)": 27.500000000000004,
+      "Lípidos totales (g)": 20
+    }
+  },
+  {
+    "categoria": "CARNES ALTAS EN GRASA",
+    "macros_generales": "120 Kcal, 1 grs Hidratos de Carbono, 11 grs proteína y 8 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Jamón",
+    "gramos": "40",
+    "medida_casera": "1 rebanada",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0006.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 300,
+      "H de C disp. (g)": 2.5,
+      "Proteínas (g)": 27.500000000000004,
+      "Lípidos totales (g)": 20
+    }
+  },
+  {
+    "categoria": "CARNES ALTAS EN GRASA",
+    "macros_generales": "120 Kcal, 1 grs Hidratos de Carbono, 11 grs proteína y 8 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Prieta",
+    "gramos": "100",
+    "medida_casera": "1 unidad de 4 cms",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0006.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 120,
+      "H de C disp. (g)": 1,
+      "Proteínas (g)": 11,
+      "Lípidos totales (g)": 8
+    }
+  },
+  {
+    "categoria": "LEGUMINOSAS SECAS",
+    "macros_generales": "170 Kcal, 30 grs Hidratos de Carbono, 11 grs proteína y 1 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Habas crudas",
+    "gramos": "60",
+    "medida_casera": "¼ taza",
+    "nutrientes_destacados": "Alto en fibra (>3 grs)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0006.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 283.33333333333337,
+      "H de C disp. (g)": 50,
+      "Proteínas (g)": 18.333333333333332,
+      "Lípidos totales (g)": 1.6666666666666667
+    }
+  },
+  {
+    "categoria": "LEGUMINOSAS SECAS",
+    "macros_generales": "170 Kcal, 30 grs Hidratos de Carbono, 11 grs proteína y 1 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Habas cocidas",
+    "gramos": "140",
+    "medida_casera": "¾ taza",
+    "nutrientes_destacados": "Mod en fibra (2-3 grs)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0006.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 121.42857142857142,
+      "H de C disp. (g)": 21.428571428571427,
+      "Proteínas (g)": 7.857142857142857,
+      "Lípidos totales (g)": 0.7142857142857143
+    }
+  },
+  {
+    "categoria": "LEGUMINOSAS SECAS",
+    "macros_generales": "170 Kcal, 30 grs Hidratos de Carbono, 11 grs proteína y 1 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Porotos crudos",
+    "gramos": "50",
+    "medida_casera": "½ taza",
+    "nutrientes_destacados": "Alto en fibra (>3 grs)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0006.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 340,
+      "H de C disp. (g)": 60,
+      "Proteínas (g)": 22,
+      "Lípidos totales (g)": 2
+    }
+  },
+  {
+    "categoria": "LEGUMINOSAS SECAS",
+    "macros_generales": "170 Kcal, 30 grs Hidratos de Carbono, 11 grs proteína y 1 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Porotos cocidos",
+    "gramos": "140",
+    "medida_casera": "¾ taza",
+    "nutrientes_destacados": "Mod en fibra (2-3 grs)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0006.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 121.42857142857142,
+      "H de C disp. (g)": 21.428571428571427,
+      "Proteínas (g)": 7.857142857142857,
+      "Lípidos totales (g)": 0.7142857142857143
+    }
+  },
+  {
+    "categoria": "LEGUMINOSAS SECAS",
+    "macros_generales": "170 Kcal, 30 grs Hidratos de Carbono, 11 grs proteína y 1 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Garbanzos crudos",
+    "gramos": "50",
+    "medida_casera": "¼ taza",
+    "nutrientes_destacados": "Alto en fibra (>3 grs)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0006.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 340,
+      "H de C disp. (g)": 60,
+      "Proteínas (g)": 22,
+      "Lípidos totales (g)": 2
+    }
+  },
+  {
+    "categoria": "LEGUMINOSAS SECAS",
+    "macros_generales": "170 Kcal, 30 grs Hidratos de Carbono, 11 grs proteína y 1 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Garbanzos cocidos",
+    "gramos": "140",
+    "medida_casera": "¾ taza",
+    "nutrientes_destacados": "Mod en fibra (2-3 grs)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0006.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 121.42857142857142,
+      "H de C disp. (g)": 21.428571428571427,
+      "Proteínas (g)": 7.857142857142857,
+      "Lípidos totales (g)": 0.7142857142857143
+    }
+  },
+  {
+    "categoria": "LEGUMINOSAS SECAS",
+    "macros_generales": "170 Kcal, 30 grs Hidratos de Carbono, 11 grs proteína y 1 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Lentejas crudas",
+    "gramos": "50",
+    "medida_casera": "¼ taza",
+    "nutrientes_destacados": "Alto en fibra (>3 grs)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0006.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 340,
+      "H de C disp. (g)": 60,
+      "Proteínas (g)": 22,
+      "Lípidos totales (g)": 2
+    }
+  },
+  {
+    "categoria": "LEGUMINOSAS SECAS",
+    "macros_generales": "170 Kcal, 30 grs Hidratos de Carbono, 11 grs proteína y 1 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Lentejas cocidas",
+    "gramos": "140",
+    "medida_casera": "¾ taza",
+    "nutrientes_destacados": "Mod en fibra (2-3 grs)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0006.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 121.42857142857142,
+      "H de C disp. (g)": 21.428571428571427,
+      "Proteínas (g)": 7.857142857142857,
+      "Lípidos totales (g)": 0.7142857142857143
+    }
+  },
+  {
+    "categoria": "LEGUMINOSAS SECAS",
+    "macros_generales": "170 Kcal, 30 grs Hidratos de Carbono, 11 grs proteína y 1 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Arvejas secas",
+    "gramos": "50",
+    "medida_casera": "½ taza",
+    "nutrientes_destacados": "Alto en fibra (>3 grs)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0006.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 340,
+      "H de C disp. (g)": 60,
+      "Proteínas (g)": 22,
+      "Lípidos totales (g)": 2
+    }
+  },
+  {
+    "categoria": "LEGUMINOSAS SECAS",
+    "macros_generales": "170 Kcal, 30 grs Hidratos de Carbono, 11 grs proteína y 1 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Arvejas cocidas",
+    "gramos": "140",
+    "medida_casera": "¾ taza",
+    "nutrientes_destacados": "Mod en fibra (2-3 grs)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0006.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 121.42857142857142,
+      "H de C disp. (g)": 21.428571428571427,
+      "Proteínas (g)": 7.857142857142857,
+      "Lípidos totales (g)": 0.7142857142857143
+    }
+  },
+  {
+    "categoria": "LEGUMINOSAS SECAS",
+    "macros_generales": "170 Kcal, 30 grs Hidratos de Carbono, 11 grs proteína y 1 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Harina de leguminosas",
+    "gramos": "50",
+    "medida_casera": "1/3 taza",
+    "nutrientes_destacados": "Alto en fibra (>3 grs)",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0006.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 340,
+      "H de C disp. (g)": 60,
+      "Proteínas (g)": 22,
+      "Lípidos totales (g)": 2
+    }
+  },
+  {
+    "categoria": "LÁCTEOS DESCREMADOS",
+    "macros_generales": "70 Kcal, 10 grs Hidratos de Carbono, 7 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Leche de vaca líquida descremada",
+    "gramos": "200 ml",
+    "medida_casera": "1 taza",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0006.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 35,
+      "H de C disp. (g)": 5,
+      "Proteínas (g)": 3.5000000000000004,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "LÁCTEOS DESCREMADOS",
+    "macros_generales": "70 Kcal, 10 grs Hidratos de Carbono, 7 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Leche de vaca en polvo descremada",
+    "gramos": "20 grs",
+    "medida_casera": "2 cucharadas colmadas",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0007.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 350,
+      "H de C disp. (g)": 50,
+      "Proteínas (g)": 35,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "LÁCTEOS DESCREMADOS",
+    "macros_generales": "70 Kcal, 10 grs Hidratos de Carbono, 7 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Yogurt descremado sin azúcar adicionada",
+    "gramos": "125 grs",
+    "medida_casera": "½ taza o 1 unidad",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0007.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 56.00000000000001,
+      "H de C disp. (g)": 8,
+      "Proteínas (g)": 5.6000000000000005,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "LÁCTEOS DESCREMADOS",
+    "macros_generales": "70 Kcal, 10 grs Hidratos de Carbono, 7 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Quesillo light",
+    "gramos": "60 grs",
+    "medida_casera": "1 rebanada de 3 cms",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0007.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 116.66666666666667,
+      "H de C disp. (g)": 16.666666666666664,
+      "Proteínas (g)": 11.666666666666666,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "LÁCTEOS DESCREMADOS",
+    "macros_generales": "70 Kcal, 10 grs Hidratos de Carbono, 7 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Leche cultivada descremada",
+    "gramos": "200 ml",
+    "medida_casera": "1 taza",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0007.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 35,
+      "H de C disp. (g)": 5,
+      "Proteínas (g)": 3.5000000000000004,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "LÁCTEOS SEMIDESCREMADOS",
+    "macros_generales": "85 Kcal, 9 grs Hidratos de Carbono, 5 grs proteína y 3 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Leche de vaca líquida semidescremada",
+    "gramos": "200 ml",
+    "medida_casera": "1 taza",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0007.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 42.5,
+      "H de C disp. (g)": 4.5,
+      "Proteínas (g)": 2.5,
+      "Lípidos totales (g)": 1.5
+    }
+  },
+  {
+    "categoria": "LÁCTEOS SEMIDESCREMADOS",
+    "macros_generales": "85 Kcal, 9 grs Hidratos de Carbono, 5 grs proteína y 3 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Yogurt natural",
+    "gramos": "125 grs",
+    "medida_casera": "½ taza",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0007.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 68,
+      "H de C disp. (g)": 7.199999999999999,
+      "Proteínas (g)": 4,
+      "Lípidos totales (g)": 2.4
+    }
+  },
+  {
+    "categoria": "LÁCTEOS SEMIDESCREMADOS",
+    "macros_generales": "85 Kcal, 9 grs Hidratos de Carbono, 5 grs proteína y 3 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Yogurt griego light",
+    "gramos": "125 grs",
+    "medida_casera": "½ taza o 1 unidad",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0007.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 68,
+      "H de C disp. (g)": 7.199999999999999,
+      "Proteínas (g)": 4,
+      "Lípidos totales (g)": 2.4
+    }
+  },
+  {
+    "categoria": "LÁCTEOS SEMIDESCREMADOS",
+    "macros_generales": "85 Kcal, 9 grs Hidratos de Carbono, 5 grs proteína y 3 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Quesillo",
+    "gramos": "60 grs",
+    "medida_casera": "1 rebanada de 3 cms",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0007.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 141.66666666666669,
+      "H de C disp. (g)": 15,
+      "Proteínas (g)": 8.333333333333332,
+      "Lípidos totales (g)": 5
+    }
+  },
+  {
+    "categoria": "LÁCTEOS SEMIDESCREMADOS",
+    "macros_generales": "85 Kcal, 9 grs Hidratos de Carbono, 5 grs proteína y 3 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Queso cottage",
+    "gramos": "80",
+    "medida_casera": "4 cucharadas",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0007.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 106.25,
+      "H de C disp. (g)": 11.25,
+      "Proteínas (g)": 6.25,
+      "Lípidos totales (g)": 3.75
+    }
+  },
+  {
+    "categoria": "LÁCTEOS SEMIDESCREMADOS",
+    "macros_generales": "85 Kcal, 9 grs Hidratos de Carbono, 5 grs proteína y 3 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Queso ricota light",
+    "gramos": "65",
+    "medida_casera": "3 cucharadas",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0007.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 130.76923076923077,
+      "H de C disp. (g)": 13.846153846153847,
+      "Proteínas (g)": 7.6923076923076925,
+      "Lípidos totales (g)": 4.615384615384616
+    }
+  },
+  {
+    "categoria": "LÁCTEOS ENTEROS",
+    "macros_generales": "110 Kcal, 9 grs Hidratos de Carbono, 5 grs proteína y 6 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Leche de vaca líquida entera",
+    "gramos": "200 ml",
+    "medida_casera": "1 taza",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0007.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 55.00000000000001,
+      "H de C disp. (g)": 4.5,
+      "Proteínas (g)": 2.5,
+      "Lípidos totales (g)": 3
+    }
+  },
+  {
+    "categoria": "LÁCTEOS ENTEROS",
+    "macros_generales": "110 Kcal, 9 grs Hidratos de Carbono, 5 grs proteína y 6 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Leche de vaca en polvo entera",
+    "gramos": "20 grs",
+    "medida_casera": "2 cucharadas colmadas",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0007.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 550,
+      "H de C disp. (g)": 45,
+      "Proteínas (g)": 25,
+      "Lípidos totales (g)": 30
+    }
+  },
+  {
+    "categoria": "LÁCTEOS ENTEROS",
+    "macros_generales": "110 Kcal, 9 grs Hidratos de Carbono, 5 grs proteína y 6 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Yogurt griego",
+    "gramos": "125 grs",
+    "medida_casera": "½ taza o 1 unidad",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0007.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 88,
+      "H de C disp. (g)": 7.199999999999999,
+      "Proteínas (g)": 4,
+      "Lípidos totales (g)": 4.8
+    }
+  },
+  {
+    "categoria": "LÁCTEOS ENTEROS",
+    "macros_generales": "110 Kcal, 9 grs Hidratos de Carbono, 5 grs proteína y 6 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Queso fresco",
+    "gramos": "60 grs",
+    "medida_casera": "1 rebanada de 3 cms",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0007.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 183.33333333333331,
+      "H de C disp. (g)": 15,
+      "Proteínas (g)": 8.333333333333332,
+      "Lípidos totales (g)": 10
+    }
+  },
+  {
+    "categoria": "LÁCTEOS ENTEROS",
+    "macros_generales": "110 Kcal, 9 grs Hidratos de Carbono, 5 grs proteína y 6 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Queso chanco, mantecoso, gouda, cheddar",
+    "gramos": "30 grs",
+    "medida_casera": "½ lámina",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0007.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 366.66666666666663,
+      "H de C disp. (g)": 30,
+      "Proteínas (g)": 16.666666666666664,
+      "Lípidos totales (g)": 20
+    }
+  },
+  {
+    "categoria": "LÁCTEOS ENTEROS",
+    "macros_generales": "110 Kcal, 9 grs Hidratos de Carbono, 5 grs proteína y 6 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Queso de cabra",
+    "gramos": "30",
+    "medida_casera": "½ tajada laminada",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0007.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 366.66666666666663,
+      "H de C disp. (g)": 30,
+      "Proteínas (g)": 16.666666666666664,
+      "Lípidos totales (g)": 20
+    }
+  },
+  {
+    "categoria": "LÁCTEOS ENTEROS",
+    "macros_generales": "110 Kcal, 9 grs Hidratos de Carbono, 5 grs proteína y 6 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Queso parmesano",
+    "gramos": "25",
+    "medida_casera": "5 cucharaditas rasas",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0007.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 440.00000000000006,
+      "H de C disp. (g)": 36,
+      "Proteínas (g)": 20,
+      "Lípidos totales (g)": 24
+    }
+  },
+  {
+    "categoria": "LÁCTEOS ENTEROS",
+    "macros_generales": "110 Kcal, 9 grs Hidratos de Carbono, 5 grs proteína y 6 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Queso mascarpone",
+    "gramos": "30",
+    "medida_casera": "1 ½ cucharada",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0007.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 366.66666666666663,
+      "H de C disp. (g)": 30,
+      "Proteínas (g)": 16.666666666666664,
+      "Lípidos totales (g)": 20
+    }
+  },
+  {
+    "categoria": "LÁCTEOS ENTEROS",
+    "macros_generales": "110 Kcal, 9 grs Hidratos de Carbono, 5 grs proteína y 6 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Ricota",
+    "gramos": "65",
+    "medida_casera": "3 cucharadas",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0007.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 169.23076923076923,
+      "H de C disp. (g)": 13.846153846153847,
+      "Proteínas (g)": 7.6923076923076925,
+      "Lípidos totales (g)": 9.230769230769232
+    }
+  },
+  {
+    "categoria": "ACEITES Y GRASAS",
+    "macros_generales": "180 Kcal, 0 grs Hidratos de Carbono, 0 grs proteína y 20 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Aceites (maravilla, maíz, soya, pepita de uva)",
+    "gramos": "20 ml",
+    "medida_casera": "4 cucharaditas",
+    "nutrientes_destacados": "Ácidos grasos poliinsaturados",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0008.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 900,
+      "H de C disp. (g)": 0,
+      "Proteínas (g)": 0,
+      "Lípidos totales (g)": 100
+    }
+  },
+  {
+    "categoria": "ACEITES Y GRASAS",
+    "macros_generales": "180 Kcal, 0 grs Hidratos de Carbono, 0 grs proteína y 20 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Aceites (oliva, canola, colza)",
+    "gramos": "20 ml",
+    "medida_casera": "4 cucharaditas",
+    "nutrientes_destacados": "Ácidos grasos monoinsaturados",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0008.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 900,
+      "H de C disp. (g)": 0,
+      "Proteínas (g)": 0,
+      "Lípidos totales (g)": 100
+    }
+  },
+  {
+    "categoria": "ACEITES Y GRASAS",
+    "macros_generales": "180 Kcal, 0 grs Hidratos de Carbono, 0 grs proteína y 20 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Margarina",
+    "gramos": "30 grs",
+    "medida_casera": "4 cucharaditas",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0008.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 600,
+      "H de C disp. (g)": 0,
+      "Proteínas (g)": 0,
+      "Lípidos totales (g)": 66.66666666666666
+    }
+  },
+  {
+    "categoria": "ACEITES Y GRASAS",
+    "macros_generales": "180 Kcal, 0 grs Hidratos de Carbono, 0 grs proteína y 20 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Mantequilla",
+    "gramos": "24 grs",
+    "medida_casera": "4 cucharaditas",
+    "nutrientes_destacados": "Ácidos grasos saturados",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0008.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 750,
+      "H de C disp. (g)": 0,
+      "Proteínas (g)": 0,
+      "Lípidos totales (g)": 83.33333333333334
+    }
+  },
+  {
+    "categoria": "ACEITES Y GRASAS",
+    "macros_generales": "180 Kcal, 0 grs Hidratos de Carbono, 0 grs proteína y 20 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Mayonesa",
+    "gramos": "28 grs",
+    "medida_casera": "1 cucharada",
+    "nutrientes_destacados": "Ácidos grasos saturados",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0008.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 642.8571428571429,
+      "H de C disp. (g)": 0,
+      "Proteínas (g)": 0,
+      "Lípidos totales (g)": 71.42857142857143
+    }
+  },
+  {
+    "categoria": "ACEITES Y GRASAS",
+    "macros_generales": "180 Kcal, 0 grs Hidratos de Carbono, 0 grs proteína y 20 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Manteca de cerdo",
+    "gramos": "20 grs",
+    "medida_casera": "2 cucharadas",
+    "nutrientes_destacados": "Ácidos grasos saturados",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0008.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 900,
+      "H de C disp. (g)": 0,
+      "Proteínas (g)": 0,
+      "Lípidos totales (g)": 100
+    }
+  },
+  {
+    "categoria": "ACEITES Y GRASAS",
+    "macros_generales": "180 Kcal, 0 grs Hidratos de Carbono, 0 grs proteína y 20 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Manteca vegetal",
+    "gramos": "20 grs",
+    "medida_casera": "2 cucharadas",
+    "nutrientes_destacados": "Ácidos grasos saturados",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0008.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 900,
+      "H de C disp. (g)": 0,
+      "Proteínas (g)": 0,
+      "Lípidos totales (g)": 100
+    }
+  },
+  {
+    "categoria": "ACEITES Y GRASAS",
+    "macros_generales": "180 Kcal, 0 grs Hidratos de Carbono, 0 grs proteína y 20 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Crema de leche",
+    "gramos": "70 grs",
+    "medida_casera": "4 cucharadas",
+    "nutrientes_destacados": "Ácidos grasos saturados",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0008.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 257.14285714285717,
+      "H de C disp. (g)": 0,
+      "Proteínas (g)": 0,
+      "Lípidos totales (g)": 28.57142857142857
+    }
+  },
+  {
+    "categoria": "ACEITES Y GRASAS",
+    "macros_generales": "180 Kcal, 0 grs Hidratos de Carbono, 0 grs proteína y 20 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Crema ácida liquida",
+    "gramos": "100 ml",
+    "medida_casera": "½ taza",
+    "nutrientes_destacados": "Ácidos grasos saturados",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0008.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 180,
+      "H de C disp. (g)": 0,
+      "Proteínas (g)": 0,
+      "Lípidos totales (g)": 20
+    }
+  },
+  {
+    "categoria": "ACEITES Y GRASAS",
+    "macros_generales": "180 Kcal, 0 grs Hidratos de Carbono, 0 grs proteína y 20 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Tocino",
+    "gramos": "30 grs",
+    "medida_casera": "1 ½ tajada",
+    "nutrientes_destacados": "Ácidos grasos saturados",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0008.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 600,
+      "H de C disp. (g)": 0,
+      "Proteínas (g)": 0,
+      "Lípidos totales (g)": 66.66666666666666
+    }
+  },
+  {
+    "categoria": "ACEITES Y GRASAS",
+    "macros_generales": "180 Kcal, 0 grs Hidratos de Carbono, 0 grs proteína y 20 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Paté",
+    "gramos": "40",
+    "medida_casera": "2 cucharadas",
+    "nutrientes_destacados": "Ácidos grasos saturados",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0008.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 450,
+      "H de C disp. (g)": 0,
+      "Proteínas (g)": 0,
+      "Lípidos totales (g)": 50
+    }
+  },
+  {
+    "categoria": "ALIMENTOS RICOS EN LIPIDOS",
+    "macros_generales": "175 Kcal, 5 grs Hidratos de Carbono, 5 grs proteína y 15 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Almendras",
+    "gramos": "25",
+    "medida_casera": "26 unidades",
+    "nutrientes_destacados": "Ácidos grasos monoinsaturados",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0008.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 700,
+      "H de C disp. (g)": 20,
+      "Proteínas (g)": 20,
+      "Lípidos totales (g)": 60
+    }
+  },
+  {
+    "categoria": "ALIMENTOS RICOS EN LIPIDOS",
+    "macros_generales": "175 Kcal, 5 grs Hidratos de Carbono, 5 grs proteína y 15 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Avellana",
+    "gramos": "25",
+    "medida_casera": "26 unidades",
+    "nutrientes_destacados": "Ácidos grasos monoinsaturados",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0008.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 700,
+      "H de C disp. (g)": 20,
+      "Proteínas (g)": 20,
+      "Lípidos totales (g)": 60
+    }
+  },
+  {
+    "categoria": "ALIMENTOS RICOS EN LIPIDOS",
+    "macros_generales": "175 Kcal, 5 grs Hidratos de Carbono, 5 grs proteína y 15 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Maní",
+    "gramos": "30",
+    "medida_casera": "30 unidades",
+    "nutrientes_destacados": "Ácidos grasos monoinsaturados",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0008.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 583.3333333333333,
+      "H de C disp. (g)": 16.666666666666664,
+      "Proteínas (g)": 16.666666666666664,
+      "Lípidos totales (g)": 50
+    }
+  },
+  {
+    "categoria": "ALIMENTOS RICOS EN LIPIDOS",
+    "macros_generales": "175 Kcal, 5 grs Hidratos de Carbono, 5 grs proteína y 15 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Nuez",
+    "gramos": "25",
+    "medida_casera": "5 unidades",
+    "nutrientes_destacados": "Ácidos grasos poliinsaturados",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0008.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 700,
+      "H de C disp. (g)": 20,
+      "Proteínas (g)": 20,
+      "Lípidos totales (g)": 60
+    }
+  },
+  {
+    "categoria": "ALIMENTOS RICOS EN LIPIDOS",
+    "macros_generales": "175 Kcal, 5 grs Hidratos de Carbono, 5 grs proteína y 15 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Pistacho",
+    "gramos": "30",
+    "medida_casera": "40 unidades",
+    "nutrientes_destacados": "Ácidos grasos monoinsaturados",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0008.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 583.3333333333333,
+      "H de C disp. (g)": 16.666666666666664,
+      "Proteínas (g)": 16.666666666666664,
+      "Lípidos totales (g)": 50
+    }
+  },
+  {
+    "categoria": "ALIMENTOS RICOS EN LIPIDOS",
+    "macros_generales": "175 Kcal, 5 grs Hidratos de Carbono, 5 grs proteína y 15 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Aceituna",
+    "gramos": "115",
+    "medida_casera": "11 unidades",
+    "nutrientes_destacados": "Ácidos grasos monoinsaturados",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0008.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 152.17391304347828,
+      "H de C disp. (g)": 4.3478260869565215,
+      "Proteínas (g)": 4.3478260869565215,
+      "Lípidos totales (g)": 13.043478260869565
+    }
+  },
+  {
+    "categoria": "ALIMENTOS RICOS EN LIPIDOS",
+    "macros_generales": "175 Kcal, 5 grs Hidratos de Carbono, 5 grs proteína y 15 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Palta",
+    "gramos": "90",
+    "medida_casera": "3 cucharadas",
+    "nutrientes_destacados": "Ácidos grasos monoinsaturados",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0008.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 194.44444444444443,
+      "H de C disp. (g)": 5.555555555555555,
+      "Proteínas (g)": 5.555555555555555,
+      "Lípidos totales (g)": 16.666666666666664
+    }
+  },
+  {
+    "categoria": "ALIMENTOS RICOS EN LIPIDOS",
+    "macros_generales": "175 Kcal, 5 grs Hidratos de Carbono, 5 grs proteína y 15 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Castañas de cajú",
+    "gramos": "30",
+    "medida_casera": "12 unidades",
+    "nutrientes_destacados": "Ácidos grasos monoinsaturados",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0008.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 583.3333333333333,
+      "H de C disp. (g)": 16.666666666666664,
+      "Proteínas (g)": 16.666666666666664,
+      "Lípidos totales (g)": 50
+    }
+  },
+  {
+    "categoria": "AZÚCARES",
+    "macros_generales": "20 Kcal, 5 grs Hidratos de Carbono, 0 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Azúcar",
+    "gramos": "5 grs",
+    "medida_casera": "1 cucharadita",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0008.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 400,
+      "H de C disp. (g)": 100,
+      "Proteínas (g)": 0,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "AZÚCARES",
+    "macros_generales": "20 Kcal, 5 grs Hidratos de Carbono, 0 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Miel de abeja",
+    "gramos": "5 grs",
+    "medida_casera": "1 cucharadita",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0008.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 400,
+      "H de C disp. (g)": 100,
+      "Proteínas (g)": 0,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "AZÚCARES",
+    "macros_generales": "20 Kcal, 5 grs Hidratos de Carbono, 0 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Miel de palma",
+    "gramos": "5 grs",
+    "medida_casera": "1 cucharadita",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0008.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 400,
+      "H de C disp. (g)": 100,
+      "Proteínas (g)": 0,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "AZÚCARES",
+    "macros_generales": "20 Kcal, 5 grs Hidratos de Carbono, 0 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Mermeladas",
+    "gramos": "10 grs",
+    "medida_casera": "1 cucharadita",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0008.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 200,
+      "H de C disp. (g)": 50,
+      "Proteínas (g)": 0,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "AZÚCARES",
+    "macros_generales": "20 Kcal, 5 grs Hidratos de Carbono, 0 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Manjar",
+    "gramos": "10 grs",
+    "medida_casera": "1 cucharadita",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0008.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 200,
+      "H de C disp. (g)": 50,
+      "Proteínas (g)": 0,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "AZÚCARES",
+    "macros_generales": "20 Kcal, 5 grs Hidratos de Carbono, 0 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Gelatina en polvo",
+    "gramos": "7 grs",
+    "medida_casera": "1 cucharadita",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0008.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 285.7142857142857,
+      "H de C disp. (g)": 71.42857142857143,
+      "Proteínas (g)": 0,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "AZÚCARES",
+    "macros_generales": "20 Kcal, 5 grs Hidratos de Carbono, 0 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Jugo en polvo",
+    "gramos": "5 grs",
+    "medida_casera": "1 cucharadita",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0008.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 400,
+      "H de C disp. (g)": 100,
+      "Proteínas (g)": 0,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "AZÚCARES",
+    "macros_generales": "20 Kcal, 5 grs Hidratos de Carbono, 0 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Chancaca",
+    "gramos": "5 grs",
+    "medida_casera": "1 cucharadita",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0008.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 400,
+      "H de C disp. (g)": 100,
+      "Proteínas (g)": 0,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "AZÚCARES",
+    "macros_generales": "20 Kcal, 5 grs Hidratos de Carbono, 0 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Leche condensada",
+    "gramos": "7 grs",
+    "medida_casera": "1 cucharadita",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0008.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 285.7142857142857,
+      "H de C disp. (g)": 71.42857142857143,
+      "Proteínas (g)": 0,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "AZÚCARES",
+    "macros_generales": "20 Kcal, 5 grs Hidratos de Carbono, 0 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Bebida carbonatada",
+    "gramos": "50 ml",
+    "medida_casera": "¼ taza",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0008.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 40,
+      "H de C disp. (g)": 10,
+      "Proteínas (g)": 0,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "AZÚCARES",
+    "macros_generales": "20 Kcal, 5 grs Hidratos de Carbono, 0 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Néctar promedio tipo",
+    "gramos": "40 ml",
+    "medida_casera": "1/5 taza",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0008.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 50,
+      "H de C disp. (g)": 12.5,
+      "Proteínas (g)": 0,
+      "Lípidos totales (g)": 0
+    }
+  },
+  {
+    "categoria": "AZÚCARES",
+    "macros_generales": "20 Kcal, 5 grs Hidratos de Carbono, 0 grs proteína y 0 grs lípidos",
+    "tipo": "s/i",
+    "alimento": "Helado de agua tipo",
+    "gramos": "25cc",
+    "medida_casera": "1/3 paleta",
+    "nutrientes_destacados": "s/i",
+    "imagen_fuente": "PORCIONES DE INTERCAMBIO DE ALIMENTOS_page-0008.jpg",
+    "nutrientes": {
+      "Energía (kcal)": 80,
+      "H de C disp. (g)": 20,
+      "Proteínas (g)": 0,
+      "Lípidos totales (g)": 0
+    }
+  }
+]

@@ -883,3 +883,26 @@ img.zoomed { transform: scale(2); cursor: zoom-out !important; transform-origin:
     font-weight: 600;
     border-left: 2px solid var(--border-color);
 }
+
+/* --- DB TOGGLE SWITCH --- */
+.db-toggle {
+    display: flex;
+    background: var(--border-color);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+}
+.db-toggle input[type="radio"] {
+    display: none;
+}
+.db-toggle label {
+    padding: 0.3rem 0.75rem;
+    font-size: 0.85rem;
+    font-weight: 500;
+    cursor: pointer;
+    color: var(--text-muted);
+    transition: all 0.2s;
+}
+.db-toggle input[type="radio"]:checked + label {
+    background: var(--primary-color);
+    color: var(--text-light);
+}
